@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>PW Classic Cats Arbitrage | Сканер цен котов</title>
+  <!-- Telegram WebApp SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              dark: '#0b1320',
+              card: '#131e32',
+              border: '#1f2d47'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #080d1a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 6px;
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #2a3a5a;
+      border-radius: 4px;
+    }
+    .pulse-dot {
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+      animation: pulse-ring 2s infinite cubic-bezier(0.66, 0, 0, 1);
+    }
+    @keyframes pulse-ring {
+      to {
+        box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col pb-12">
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed top-5 left-1/2 -translate-x-1/2 z-50 bg-emerald-600 text-white px-4 py-2 rounded-xl shadow-2xl flex items-center gap-2 text-sm font-medium transition-all duration-300 opacity-0 pointer-events-none transform -translate-y-4">
+    <i class="fa-solid fa-check-circle"></i>
+    <span id="toast-msg">Координаты скопированы!</span>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-[#080d1a]/90 backdrop-blur-md border-b border-[#1f2d47] px-4 py-3">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center shadow-lg shadow-emerald-500/20">
+          <i class="fa-solid fa-coins text-white text-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-base font-bold text-white flex items-center gap-2">
+            PW Cats Arbitrage
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+              Classic 1.3.6
+            </span>
+          </h1>
+          <div class="flex items-center gap-2 text-xs text-slate-400">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
+            <span id="last-updated">Загрузка...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button id="refresh-btn" onclick="fetchData()" class="p-2.5 rounded-xl bg-[#131e32] border border-[#1f2d47] hover:border-emerald-500/50 text-slate-300 hover:text-white transition-all active:scale-95" title="Обновить">
+          <i class="fa-solid fa-rotate text-sm" id="refresh-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-6xl mx-auto px-4 mt-5 flex-1 w-full space-y-6">
+
+    <!-- Metric Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="bg-[#131e32] border border-[#1f2d47] rounded-2xl p-4 flex flex-col justify-between">
+        <span class="text-xs text-slate-400 font-medium">Активных вилок</span>
+        <div class="mt-2 flex items-baseline justify-between">
+          <span id="stat-arbitrage" class="text-2xl font-black text-emerald-400">0</span>
+          <i class="fa-solid fa-bolt text-emerald-500/30 text-xl"></i>
+        </div>
+      </div>
+
+      <div class="bg-[#131e32] border border-[#1f2d47] rounded-2xl p-4 flex flex-col justify-between">
+        <span class="text-xs text-slate-400 font-medium">Топ профит сделки</span>
+        <div class="mt-2 flex items-baseline justify-between">
+          <span id="stat-max-profit" class="text-xl font-black text-amber-400">0</span>
+          <i class="fa-solid fa-trophy text-amber-500/30 text-xl"></i>
+        </div>
+      </div>
+
+      <div class="bg-[#131e32] border border-[#1f2d47] rounded-2xl p-4 flex flex-col justify-between">
+        <span class="text-xs text-slate-400 font-medium">Скидки &gt; 30%</span>
+        <div class="mt-2 flex items-baseline justify-between">
+          <span id="stat-bargains" class="text-2xl font-black text-sky-400">0</span>
+          <i class="fa-solid fa-tag text-sky-500/30 text-xl"></i>
+        </div>
+      </div>
+
+      <div class="bg-[#131e32] border border-[#1f2d47] rounded-2xl p-4 flex flex-col justify-between">
+        <span class="text-xs text-slate-400 font-medium">Товаров в базе</span>
+        <div class="mt-2 flex items-baseline justify-between">
+          <span id="stat-scanned" class="text-2xl font-black text-purple-400">0</span>
+          <i class="fa-solid fa-database text-purple-500/30 text-xl"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="flex items-center justify-between border-b border-[#1f2d47] pb-2">
+      <div class="flex gap-2">
+        <button onclick="switchTab('arbitrage')" id="tab-arbitrage-btn" class="px-4 py-2 rounded-xl text-sm font-semibold transition-all bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+          <i class="fa-solid fa-arrow-trend-up mr-1.5"></i> Мгновенный арбитраж
+        </button>
+        <button onclick="switchTab('bargains')" id="tab-bargains-btn" class="px-4 py-2 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-slate-200">
+          <i class="fa-solid fa-percent mr-1.5"></i> Дешевле рынка
+        </button>
+        <button onclick="switchTab('all')" id="tab-all-btn" class="px-4 py-2 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-slate-200">
+          <i class="fa-solid fa-list mr-1.5"></i> Все цены
+        </button>
+      </div>
+    </div>
+
+    <!-- Search & Filter Controls -->
+    <div class="flex flex-col sm:flex-row gap-3">
+      <div class="relative flex-1">
+        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+        <input type="text" id="search-input" oninput="applyFilters()" placeholder="Поиск по названию предмета или нику кота..." class="w-full bg-[#131e32] border border-[#1f2d47] rounded-xl pl-10 pr-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition-all">
+      </div>
+
+      <div class="flex items-center gap-2 overflow-x-auto custom-scrollbar pb-1 sm:pb-0" id="category-pills">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Arbitrage Section -->
+    <section id="section-arbitrage" class="space-y-4">
+      <div id="arbitrage-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Rendered by JS -->
+      </div>
+      <div id="arbitrage-empty" class="hidden text-center py-16 bg-[#131e32]/40 rounded-2xl border border-dashed border-[#1f2d47]">
+        <i class="fa-solid fa-scale-balanced text-4xl text-slate-600 mb-3"></i>
+        <p class="text-slate-300 font-medium">Нет активных арбитражных вилок</p>
+        <p class="text-xs text-slate-500 mt-1">Ожидайте обновления базы котов или измените параметры фильтра.</p>
+      </div>
+    </section>
+
+    <!-- Bargains Section -->
+    <section id="section-bargains" class="hidden space-y-4">
+      <div id="bargains-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Rendered by JS -->
+      </div>
+      <div id="bargains-empty" class="hidden text-center py-16 bg-[#131e32]/40 rounded-2xl border border-dashed border-[#1f2d47]">
+        <i class="fa-solid fa-tags text-4xl text-slate-600 mb-3"></i>
+        <p class="text-slate-300 font-medium">Нет аномально дешевых товаров</p>
+      </div>
+    </section>
+
+    <!-- All Items Section -->
+    <section id="section-all" class="hidden space-y-4">
+      <div class="bg-[#131e32] border border-[#1f2d47] rounded-2xl overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-[#0b1320] text-slate-400 text-xs uppercase font-semibold">
+              <tr>
+                <th class="p-3">Предмет</th>
+                <th class="p-3">Категория</th>
+                <th class="p-3 text-right">Мин. продажа</th>
+                <th class="p-3 text-right">Макс. скупка</th>
+                <th class="p-3 text-right">Медиана рынка</th>
+              </tr>
+            </thead>
+            <tbody id="all-items-table" class="divide-y divide-[#1f2d47]">
+              <!-- Rendered by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-12 text-center text-xs text-slate-500 py-4 border-t border-[#1f2d47]">
+    База данных котов PW Classic 1.3.6 &bull; <a href="https://dbase.pwclassic.net/cats" target="_blank" class="text-emerald-500 hover:underline">dbase.pwclassic.net</a>
+  </footer>
+
+  <script>
+    // Telegram WebApp Setup
+    if (window.Telegram && window.Telegram.WebApp) {
+      window.Telegram.WebApp.expand();
+      window.Telegram.WebApp.ready();
+    }
+
+    let globalData = null;
+    let currentTab = 'arbitrage';
+    let selectedCategory = 'Все';
+
+    const CATEGORIES = ['Все', 'Популярное', 'Ресурсы', 'Камни', 'Трава', 'ХХ и Данжи', 'Скилы', 'Еда и Аптека'];
+
+    function initCategoryPills() {
+      const container = document.getElementById('category-pills');
+      container.innerHTML = CATEGORIES.map(cat => `
+        <button onclick="setCategory('${cat}')" class="category-pill whitespace-nowrap px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${cat === selectedCategory ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' : 'bg-[#131e32] text-slate-400 border-[#1f2d47] hover:border-slate-600'}">
+          ${cat}
+        </button>
+      `).join('');
+    }
+
+    function setCategory(cat) {
+      selectedCategory = cat;
+      initCategoryPills();
+      applyFilters();
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      ['arbitrage', 'bargains', 'all'].forEach(t => {
+        const btn = document.getElementById(`tab-${t}-btn`);
+        const section = document.getElementById(`section-${t}`);
+        if (t === tab) {
+          btn.className = "px-4 py-2 rounded-xl text-sm font-semibold transition-all bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
+          section.classList.remove('hidden');
+        } else {
+          btn.className = "px-4 py-2 rounded-xl text-sm font-semibold transition-all text-slate-400 hover:text-slate-200";
+          section.classList.add('hidden');
+        }
+      });
+      applyFilters();
+    }
+
+    function copyCoords(coords, e) {
+      if (e) e.stopPropagation();
+      navigator.clipboard.writeText(coords).then(() => {
+        showToast(`Координаты ${coords} скопированы!`);
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-msg');
+      toastMsg.innerText = msg;
+      toast.classList.remove('opacity-0', '-translate-y-4', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', '-translate-y-4', 'pointer-events-none');
+        toast.classList.remove('opacity-100', 'translate-y-0');
+      }, 2000);
+    }
+
+    function formatNumber(num) {
+      if (!num) return '0';
+      return Math.round(num).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+    }
+
+    async function fetchData() {
+      const refreshIcon = document.getElementById('refresh-icon');
+      refreshIcon.classList.add('fa-spin');
+
+      try {
+        const res = await fetch(`data.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error('Failed to load data.json');
+        globalData = await res.json();
+        renderDashboard();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('last-updated').innerText = 'Ошибка загрузки данных';
+      } finally {
+        setTimeout(() => refreshIcon.classList.remove('fa-spin'), 600);
+      }
+    }
+
+    function renderDashboard() {
+      if (!globalData) return;
+
+      // Header stats
+      const updatedAt = new Date(globalData.updated_at);
+      document.getElementById('last-updated').innerText = `Обновлено: ${updatedAt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+      document.getElementById('stat-arbitrage').innerText = globalData.stats?.arbitrage_count || globalData.arbitrage?.length || 0;
+      document.getElementById('stat-bargains').innerText = globalData.stats?.bargains_count || globalData.bargains?.length || 0;
+      document.getElementById('stat-scanned').innerText = globalData.stats?.total_items_scanned || 0;
+
+      // Max profit calculation
+      const maxProfit = globalData.arbitrage?.reduce((max, d) => Math.max(max, d.total_profit || 0), 0) || 0;
+      document.getElementById('stat-max-profit').innerText = `+${formatNumber(maxProfit)}`;
+
+      applyFilters();
+    }
+
+    function applyFilters() {
+      if (!globalData) return;
+
+      const query = document.getElementById('search-input').value.toLowerCase().trim();
+
+      // Filter Arbitrage
+      const filteredArbitrage = (globalData.arbitrage || []).filter(item => {
+        const matchCat = selectedCategory === 'Все' || item.category === selectedCategory;
+        const matchQuery = !query || 
+          item.name.toLowerCase().includes(query) || 
+          (item.seller?.nick || '').toLowerCase().includes(query) ||
+          (item.buyer?.nick || '').toLowerCase().includes(query) ||
+          (item.seller?.shop || '').toLowerCase().includes(query);
+        return matchCat && matchQuery;
+      });
+
+      renderArbitrage(filteredArbitrage);
+
+      // Filter Bargains
+      const filteredBargains = (globalData.bargains || []).filter(item => {
+        const matchCat = selectedCategory === 'Все' || item.category === selectedCategory;
+        const matchQuery = !query || item.name.toLowerCase().includes(query);
+        return matchCat && matchQuery;
+      });
+
+      renderBargains(filteredBargains);
+
+      // Filter All Items
+      const filteredAll = (globalData.all_items || []).filter(item => {
+        const matchCat = selectedCategory === 'Все' || item.category === selectedCategory;
+        const matchQuery = !query || item.name.toLowerCase().includes(query);
+        return matchCat && matchQuery;
+      });
+
+      renderAllItems(filteredAll);
+    }
+
+    function renderArbitrage(deals) {
+      const container = document.getElementById('arbitrage-list');
+      const emptyState = document.getElementById('arbitrage-empty');
+
+      if (!deals.length) {
+        container.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+      emptyState.classList.add('hidden');
+
+      container.innerHTML = deals.map(deal => `
+        <div class="bg-[#131e32] border border-[#1f2d47] hover:border-emerald-500/40 rounded-2xl p-4 transition-all shadow-lg flex flex-col justify-between">
+          <div>
+            <!-- Item Header -->
+            <div class="flex items-center justify-between gap-3 pb-3 border-b border-[#1f2d47]">
+              <div class="flex items-center gap-3">
+                <img src="${deal.icon}" alt="" class="w-10 h-10 rounded-lg border border-[#2a3a5a] bg-[#0b1320]" onerror="this.src='https://dbase.pwclassic.net/images/icons/m/11208.jpg'"/>
+                <div>
+                  <h3 class="font-bold text-white text-base leading-tight">${deal.name}</h3>
+                  <span class="text-xs text-slate-400">${deal.category}</span>
+                </div>
+              </div>
+
+              <div class="text-right">
+                <div class="inline-flex items-center px-2.5 py-1 rounded-xl bg-emerald-500/20 text-emerald-400 font-black text-sm border border-emerald-500/30">
+                  +${formatNumber(deal.total_profit)}
+                </div>
+                <div class="text-[11px] text-emerald-400/80 font-medium mt-0.5">+${deal.margin_pct}% маржа</div>
+              </div>
+            </div>
+
+            <!-- Trade Steps -->
+            <div class="grid grid-cols-2 gap-3 my-3">
+              <!-- Buy Side -->
+              <div class="bg-[#0b1320]/70 rounded-xl p-3 border border-emerald-500/20">
+                <div class="flex items-center justify-between text-xs text-emerald-400 font-semibold mb-1">
+                  <span>КУПИТЬ ДЕШЕВО</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="text-lg font-black text-white">${formatNumber(deal.seller.price)} <span class="text-xs text-slate-400 font-normal">мон.</span></div>
+                <div class="text-xs text-slate-300 truncate mt-1">Кот: <span class="font-medium">«${deal.seller.shop || 'Без названия'}»</span></div>
+                <div class="text-xs text-slate-400 truncate">Ник: ${deal.seller.nick}</div>
+                <div class="text-xs text-slate-400">Наличие: <b class="text-white">${formatNumber(deal.seller.qty)} шт.</b></div>
+                
+                <button onclick="copyCoords('${deal.seller.coords}', event)" class="mt-2 w-full flex items-center justify-center gap-1.5 bg-[#1f2d47] hover:bg-emerald-600/30 text-emerald-300 text-xs py-1.5 rounded-lg transition-all active:scale-95 font-medium">
+                  <i class="fa-regular fa-copy text-[11px]"></i>
+                  <span>${deal.seller.coords || 'Коорд'}</span>
+                </button>
+              </div>
+
+              <!-- Sell Side -->
+              <div class="bg-[#0b1320]/70 rounded-xl p-3 border border-red-500/20">
+                <div class="flex items-center justify-between text-xs text-red-400 font-semibold mb-1">
+                  <span>СДАТЬ КОТУ</span>
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <div class="text-lg font-black text-white">${formatNumber(deal.buyer.price)} <span class="text-xs text-slate-400 font-normal">мон.</span></div>
+                <div class="text-xs text-slate-300 truncate mt-1">Кот: <span class="font-medium">«${deal.buyer.shop || 'Без названия'}»</span></div>
+                <div class="text-xs text-slate-400 truncate">Ник: ${deal.buyer.nick}</div>
+                <div class="text-xs text-slate-400">Скупает: <b class="text-white">${formatNumber(deal.buyer.qty)} шт.</b></div>
+
+                <button onclick="copyCoords('${deal.buyer.coords}', event)" class="mt-2 w-full flex items-center justify-center gap-1.5 bg-[#1f2d47] hover:bg-red-600/30 text-red-300 text-xs py-1.5 rounded-lg transition-all active:scale-95 font-medium">
+                  <i class="fa-regular fa-copy text-[11px]"></i>
+                  <span>${deal.buyer.coords || 'Коорд'}</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Actions -->
+          <div class="flex items-center justify-between pt-2 border-t border-[#1f2d47] text-xs">
+            <span class="text-slate-400">Сделка на <b class="text-white">${formatNumber(deal.executable_qty)} шт.</b> (+${formatNumber(deal.profit_per_unit)}/шт)</span>
+            <a href="${deal.url}" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-medium inline-flex items-center gap-1">
+              dbase <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderBargains(bargains) {
+      const container = document.getElementById('bargains-list');
+      const emptyState = document.getElementById('bargains-empty');
+
+      if (!bargains.length) {
+        container.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+      emptyState.classList.add('hidden');
+
+      container.innerHTML = bargains.map(item => `
+        <div class="bg-[#131e32] border border-[#1f2d47] hover:border-sky-500/40 rounded-2xl p-4 transition-all shadow-lg flex items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <img src="${item.icon}" alt="" class="w-10 h-10 rounded-lg border border-[#2a3a5a] bg-[#0b1320]" onerror="this.src='https://dbase.pwclassic.net/images/icons/m/11208.jpg'"/>
+            <div>
+              <h3 class="font-bold text-white text-sm leading-tight">${item.name}</h3>
+              <span class="text-xs text-slate-400">${item.category}</span>
+              <div class="text-xs text-sky-400 font-semibold mt-1">-${item.discount_pct}% ниже медианы</div>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <div class="text-base font-black text-white">${formatNumber(item.min_sell)} <span class="text-xs text-slate-400 font-normal">мон.</span></div>
+            <div class="text-xs text-slate-500 line-through">Рынок: ${formatNumber(item.median_sell)}</div>
+            <a href="https://dbase.pwclassic.net/cats/item/${item.id}?server=classic" target="_blank" class="mt-2 inline-flex items-center gap-1 text-xs text-sky-400 hover:underline">
+              Найти кота <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderAllItems(items) {
+      const tbody = document.getElementById('all-items-table');
+      if (!items.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="p-6 text-center text-slate-500">Товары не найдены</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = items.slice(0, 100).map(item => `
+        <tr class="hover:bg-[#1a2942] transition-colors">
+          <td class="p-3 flex items-center gap-2.5">
+            <img src="${item.icon}" alt="" class="w-6 h-6 rounded border border-slate-700" onerror="this.src='https://dbase.pwclassic.net/images/icons/m/11208.jpg'"/>
+            <a href="https://dbase.pwclassic.net/cats/item/${item.id}?server=classic" target="_blank" class="font-medium text-white hover:text-emerald-400 transition-colors">
+              ${item.name}
+            </a>
+          </td>
+          <td class="p-3 text-xs text-slate-400">${item.category}</td>
+          <td class="p-3 text-right font-medium text-emerald-400">${item.min_sell ? formatNumber(item.min_sell) : '-'}</td>
+          <td class="p-3 text-right font-medium text-red-400">${item.max_buy ? formatNumber(item.max_buy) : '-'}</td>
+          <td class="p-3 text-right text-xs text-slate-300">${item.median_sell ? formatNumber(item.median_sell) : '-'}</td>
+        </tr>
+      `).join('');
+    }
+
+    // Init
+    initCategoryPills();
+    fetchData();
+  </script>
+</body>
+</html>
