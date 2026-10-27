@@ -1,11 +1,286 @@
 {
-  "updated_at": "2026-10-27T19:15:04.161245+00:00",
+  "updated_at": "2026-10-27T19:47:52.467354+00:00",
   "stats": {
-    "total_items_scanned": 12,
-    "arbitrage_count": 4,
-    "bargains_count": 0
+    "total_items_scanned": 537,
+    "arbitrage_count": 32,
+    "bargains_count": 50
   },
   "arbitrage": [
+    {
+      "id": 15241,
+      "name": "Когти обезумевшего льва",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15241.jpg",
+      "seller": {
+        "nick": "Duke49",
+        "shop": "2-2",
+        "coords": "520 629",
+        "price": 49000,
+        "qty": 7
+      },
+      "buyer": {
+        "nick": "app66",
+        "shop": "ХХ82(2-2)Ресы",
+        "coords": "521 627",
+        "price": 120000,
+        "qty": 5
+      },
+      "profit_per_unit": 71000,
+      "executable_qty": 5,
+      "total_profit": 355000,
+      "margin_pct": 144.9,
+      "url": "https://dbase.pwclassic.net/cats/item/15241?server=classic"
+    },
+    {
+      "id": 15250,
+      "name": "Шкура великой обезьяны",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15250.jpg",
+      "seller": {
+        "nick": "Черри22",
+        "shop": "хх82(2-2) +/-",
+        "coords": "522 628",
+        "price": 140000,
+        "qty": 19
+      },
+      "buyer": {
+        "nick": "82xx",
+        "shop": "82xx(2-2)+-",
+        "coords": "521 627",
+        "price": 152000,
+        "qty": 5
+      },
+      "profit_per_unit": 12000,
+      "executable_qty": 5,
+      "total_profit": 60000,
+      "margin_pct": 8.6,
+      "url": "https://dbase.pwclassic.net/cats/item/15250?server=classic"
+    },
+    {
+      "id": 15265,
+      "name": "Звездная пыль",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15265.jpg",
+      "seller": {
+        "nick": "КоттеЕЕ",
+        "shop": "ХХ 2-2 3-1",
+        "coords": "521 627",
+        "price": 270000,
+        "qty": 4
+      },
+      "buyer": {
+        "nick": "XXTT82",
+        "shop": "★хх2-2(82+)",
+        "coords": "522 627",
+        "price": 280000,
+        "qty": 13
+      },
+      "profit_per_unit": 10000,
+      "executable_qty": 4,
+      "total_profit": 40000,
+      "margin_pct": 3.7,
+      "url": "https://dbase.pwclassic.net/cats/item/15265?server=classic"
+    },
+    {
+      "id": 817,
+      "name": "Каменный уголь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/817.jpg",
+      "seller": {
+        "nick": "app127",
+        "shop": "Крафти! 3 Рес",
+        "coords": "532 658",
+        "price": 4500,
+        "qty": 12
+      },
+      "buyer": {
+        "nick": "app21",
+        "shop": "Крафти! 3 Рес",
+        "coords": "550 628",
+        "price": 6460,
+        "qty": 77
+      },
+      "profit_per_unit": 1960,
+      "executable_qty": 12,
+      "total_profit": 23520,
+      "margin_pct": 43.6,
+      "url": "https://dbase.pwclassic.net/cats/item/817?server=classic"
+    },
+    {
+      "id": 6395,
+      "name": "Белая яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6395.jpg",
+      "seller": {
+        "nick": "КАМНИ001",
+        "shop": "7 КАМНИ",
+        "coords": "120 861",
+        "price": 30000,
+        "qty": 2
+      },
+      "buyer": {
+        "nick": "КАМНИ001",
+        "shop": "7 КАМНИ",
+        "coords": "120 861",
+        "price": 40000,
+        "qty": 40
+      },
+      "profit_per_unit": 10000,
+      "executable_qty": 2,
+      "total_profit": 20000,
+      "margin_pct": 33.3,
+      "url": "https://dbase.pwclassic.net/cats/item/6395?server=classic"
+    },
+    {
+      "id": 15251,
+      "name": "Мех пожирателя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15251.jpg",
+      "seller": {
+        "nick": "Duke49",
+        "shop": "2-2",
+        "coords": "520 629",
+        "price": 700,
+        "qty": 1
+      },
+      "buyer": {
+        "nick": "XX80--2-2",
+        "shop": "B/S XX80 2-2",
+        "coords": "521 628",
+        "price": 20000,
+        "qty": 5
+      },
+      "profit_per_unit": 19300,
+      "executable_qty": 1,
+      "total_profit": 19300,
+      "margin_pct": 2757.1,
+      "url": "https://dbase.pwclassic.net/cats/item/15251?server=classic"
+    },
+    {
+      "id": 1841,
+      "name": "Жасминный апельсин",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1841.jpg",
+      "seller": {
+        "nick": "app137",
+        "shop": "Трава 4-5 +/-",
+        "coords": "523 660",
+        "price": 2600,
+        "qty": 19
+      },
+      "buyer": {
+        "nick": "MIRAgY",
+        "shop": "Т5",
+        "coords": "524 658",
+        "price": 3600,
+        "qty": 472
+      },
+      "profit_per_unit": 1000,
+      "executable_qty": 19,
+      "total_profit": 19000,
+      "margin_pct": 38.5,
+      "url": "https://dbase.pwclassic.net/cats/item/1841?server=classic"
+    },
+    {
+      "id": 799,
+      "name": "Отборное дерево",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/799.jpg",
+      "seller": {
+        "nick": "prodavash",
+        "shop": "+8 Наруч/Иний",
+        "coords": "528 655",
+        "price": 12000,
+        "qty": 50
+      },
+      "buyer": {
+        "nick": "Т5Ресыч",
+        "shop": "Т5 + -",
+        "coords": "121 860",
+        "price": 12310,
+        "qty": 60
+      },
+      "profit_per_unit": 310,
+      "executable_qty": 50,
+      "total_profit": 15500,
+      "margin_pct": 2.6,
+      "url": "https://dbase.pwclassic.net/cats/item/799?server=classic"
+    },
+    {
+      "id": 1827,
+      "name": "Трава тигрового уха",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1827.jpg",
+      "seller": {
+        "nick": "ТравкаАд",
+        "shop": "Травка из Ада",
+        "coords": "549 629",
+        "price": 2300,
+        "qty": 46
+      },
+      "buyer": {
+        "nick": "T4-T5трав",
+        "shop": "Т4 трава+-",
+        "coords": "523 660",
+        "price": 2600,
+        "qty": 906
+      },
+      "profit_per_unit": 300,
+      "executable_qty": 46,
+      "total_profit": 13800,
+      "margin_pct": 13.0,
+      "url": "https://dbase.pwclassic.net/cats/item/1827?server=classic"
+    },
+    {
+      "id": 1855,
+      "name": "Жук Девяти ароматов",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1855.jpg",
+      "seller": {
+        "nick": "app137",
+        "shop": "Трава 4-5 +/-",
+        "coords": "523 660",
+        "price": 2600,
+        "qty": 21
+      },
+      "buyer": {
+        "nick": "app15",
+        "shop": "Трава 4-5 +/-",
+        "coords": "547 627",
+        "price": 3220,
+        "qty": 499
+      },
+      "profit_per_unit": 620,
+      "executable_qty": 21,
+      "total_profit": 13020,
+      "margin_pct": 23.8,
+      "url": "https://dbase.pwclassic.net/cats/item/1855?server=classic"
+    },
+    {
+      "id": 822,
+      "name": "Сильный клей",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/822.jpg",
+      "seller": {
+        "nick": "app21",
+        "shop": "Крафти! 3 Рес",
+        "coords": "550 628",
+        "price": 540,
+        "qty": 24
+      },
+      "buyer": {
+        "nick": "Саnon",
+        "shop": "RES",
+        "coords": "545 686",
+        "price": 1000,
+        "qty": 60
+      },
+      "profit_per_unit": 460,
+      "executable_qty": 24,
+      "total_profit": 11040,
+      "margin_pct": 85.2,
+      "url": "https://dbase.pwclassic.net/cats/item/822?server=classic"
+    },
     {
       "id": 833,
       "name": "Армированная кожа",
@@ -30,6 +305,106 @@
       "total_profit": 6000,
       "margin_pct": 6.7,
       "url": "https://dbase.pwclassic.net/cats/item/833?server=classic"
+    },
+    {
+      "id": 15249,
+      "name": "Металлический посох Фэн Ухэня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15249.jpg",
+      "seller": {
+        "nick": "Duke49",
+        "shop": "2-2",
+        "coords": "520 629",
+        "price": 289000,
+        "qty": 6
+      },
+      "buyer": {
+        "nick": "Черри22",
+        "shop": "хх82(2-2) +/-",
+        "coords": "522 628",
+        "price": 290000,
+        "qty": 8
+      },
+      "profit_per_unit": 1000,
+      "executable_qty": 6,
+      "total_profit": 6000,
+      "margin_pct": 0.3,
+      "url": "https://dbase.pwclassic.net/cats/item/15249?server=classic"
+    },
+    {
+      "id": 15266,
+      "name": "Кисть призрачного короля",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15266.jpg",
+      "seller": {
+        "nick": "Черри24",
+        "shop": "хх88(3-1) +/-",
+        "coords": "522 628",
+        "price": 199000,
+        "qty": 19
+      },
+      "buyer": {
+        "nick": "XX90--3-1",
+        "shop": "B/S 90XX 3-1",
+        "coords": "521 628",
+        "price": 200000,
+        "qty": 4
+      },
+      "profit_per_unit": 1000,
+      "executable_qty": 4,
+      "total_profit": 4000,
+      "margin_pct": 0.5,
+      "url": "https://dbase.pwclassic.net/cats/item/15266?server=classic"
+    },
+    {
+      "id": 1839,
+      "name": "Орлиное дерево",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1839.jpg",
+      "seller": {
+        "nick": "MadCat31",
+        "shop": "Разная трава",
+        "coords": "522 659",
+        "price": 495,
+        "qty": 37
+      },
+      "buyer": {
+        "nick": "Т3-трава",
+        "shop": "T3 трава",
+        "coords": "523 659",
+        "price": 600,
+        "qty": 400
+      },
+      "profit_per_unit": 105,
+      "executable_qty": 37,
+      "total_profit": 3885,
+      "margin_pct": 21.2,
+      "url": "https://dbase.pwclassic.net/cats/item/1839?server=classic"
+    },
+    {
+      "id": 807,
+      "name": "Шлифовальный порошок",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/807.jpg",
+      "seller": {
+        "nick": "app127",
+        "shop": "Крафти! 3 Рес",
+        "coords": "532 658",
+        "price": 4100,
+        "qty": 1
+      },
+      "buyer": {
+        "nick": "Черри17",
+        "shop": "Т3 СКУП|ПРОД",
+        "coords": "522 629",
+        "price": 6450,
+        "qty": 157
+      },
+      "profit_per_unit": 2350,
+      "executable_qty": 1,
+      "total_profit": 2350,
+      "margin_pct": 57.3,
+      "url": "https://dbase.pwclassic.net/cats/item/807?server=classic"
     },
     {
       "id": 808,
@@ -57,6 +432,81 @@
       "url": "https://dbase.pwclassic.net/cats/item/808?server=classic"
     },
     {
+      "id": 803,
+      "name": "Сплавленная сталь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/803.jpg",
+      "seller": {
+        "nick": "T4",
+        "shop": "T4 T4 T4",
+        "coords": "556 627",
+        "price": 5500,
+        "qty": 1
+      },
+      "buyer": {
+        "nick": "БусинА",
+        "shop": "Т4  СКУП  Т4",
+        "coords": "528 657",
+        "price": 7100,
+        "qty": 176
+      },
+      "profit_per_unit": 1600,
+      "executable_qty": 1,
+      "total_profit": 1600,
+      "margin_pct": 29.1,
+      "url": "https://dbase.pwclassic.net/cats/item/803?server=classic"
+    },
+    {
+      "id": 1857,
+      "name": "Пьянящая роса бессмертия",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1857.jpg",
+      "seller": {
+        "nick": "MadCat25",
+        "shop": "ТРАВА T3-4-5",
+        "coords": "122 859",
+        "price": 525,
+        "qty": 5
+      },
+      "buyer": {
+        "nick": "T4-T5трав",
+        "shop": "Т4 трава+-",
+        "coords": "523 660",
+        "price": 800,
+        "qty": 992
+      },
+      "profit_per_unit": 275,
+      "executable_qty": 5,
+      "total_profit": 1375,
+      "margin_pct": 52.4,
+      "url": "https://dbase.pwclassic.net/cats/item/1857?server=classic"
+    },
+    {
+      "id": 1852,
+      "name": "Белая слива",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1852.jpg",
+      "seller": {
+        "nick": "Njhufi7",
+        "shop": "Т5 Тюльпан",
+        "coords": "122 860",
+        "price": 1300,
+        "qty": 6
+      },
+      "buyer": {
+        "nick": "app15",
+        "shop": "Трава 4-5 +/-",
+        "coords": "547 627",
+        "price": 1510,
+        "qty": 410
+      },
+      "profit_per_unit": 210,
+      "executable_qty": 6,
+      "total_profit": 1260,
+      "margin_pct": 16.2,
+      "url": "https://dbase.pwclassic.net/cats/item/1852?server=classic"
+    },
+    {
       "id": 804,
       "name": "Отборный сплав стали",
       "category": "Ресурсы",
@@ -80,6 +530,256 @@
       "total_profit": 930,
       "margin_pct": 2.6,
       "url": "https://dbase.pwclassic.net/cats/item/804?server=classic"
+    },
+    {
+      "id": 15238,
+      "name": "Дырявый череп",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15238.jpg",
+      "seller": {
+        "nick": "app31",
+        "shop": "ХХ76(1-3)Ресы",
+        "coords": "521 627",
+        "price": 1730,
+        "qty": 39
+      },
+      "buyer": {
+        "nick": "Черри21",
+        "shop": "хх74(2-1) +/-",
+        "coords": "522 628",
+        "price": 2000,
+        "qty": 3
+      },
+      "profit_per_unit": 270,
+      "executable_qty": 3,
+      "total_profit": 810,
+      "margin_pct": 15.6,
+      "url": "https://dbase.pwclassic.net/cats/item/15238?server=classic"
+    },
+    {
+      "id": 15288,
+      "name": "Сердце монахини",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15288.jpg",
+      "seller": {
+        "nick": "100xx",
+        "shop": "100xx(3-3)+-",
+        "coords": "521 628",
+        "price": 240,
+        "qty": 3
+      },
+      "buyer": {
+        "nick": "XX99--3-3",
+        "shop": "B/S 99ХХ 3-3",
+        "coords": "521 628",
+        "price": 500,
+        "qty": 16
+      },
+      "profit_per_unit": 260,
+      "executable_qty": 3,
+      "total_profit": 780,
+      "margin_pct": 108.3,
+      "url": "https://dbase.pwclassic.net/cats/item/15288?server=classic"
+    },
+    {
+      "id": 15269,
+      "name": "Призматический диск",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15269.jpg",
+      "seller": {
+        "nick": "xx90xx",
+        "shop": "xx90xx2-3 +/-",
+        "coords": "521 627",
+        "price": 500,
+        "qty": 1
+      },
+      "buyer": {
+        "nick": "XX90--2-3",
+        "shop": "B/S XX90 2-3",
+        "coords": "521 628",
+        "price": 1000,
+        "qty": 1
+      },
+      "profit_per_unit": 500,
+      "executable_qty": 1,
+      "total_profit": 500,
+      "margin_pct": 100.0,
+      "url": "https://dbase.pwclassic.net/cats/item/15269?server=classic"
+    },
+    {
+      "id": 1840,
+      "name": "Тюльпан",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1840.jpg",
+      "seller": {
+        "nick": "T4-T5трав",
+        "shop": "Т4 трава+-",
+        "coords": "523 660",
+        "price": 3000,
+        "qty": 2
+      },
+      "buyer": {
+        "nick": "app15",
+        "shop": "Трава 4-5 +/-",
+        "coords": "547 627",
+        "price": 3210,
+        "qty": 499
+      },
+      "profit_per_unit": 210,
+      "executable_qty": 2,
+      "total_profit": 420,
+      "margin_pct": 7.0,
+      "url": "https://dbase.pwclassic.net/cats/item/1840?server=classic"
+    },
+    {
+      "id": 5294,
+      "name": "Белая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5294.jpg",
+      "seller": {
+        "nick": "Zenna17",
+        "shop": "ПО СЕБЕСУ",
+        "coords": "533 643",
+        "price": 4771,
+        "qty": 811
+      },
+      "buyer": {
+        "nick": "-OssO-",
+        "shop": "Shard 2-3 lvl",
+        "coords": "532 643",
+        "price": 4850,
+        "qty": 5
+      },
+      "profit_per_unit": 79,
+      "executable_qty": 5,
+      "total_profit": 395,
+      "margin_pct": 1.7,
+      "url": "https://dbase.pwclassic.net/cats/item/5294?server=classic"
+    },
+    {
+      "id": 5301,
+      "name": "Зеленая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5301.jpg",
+      "seller": {
+        "nick": "Zenna17",
+        "shop": "ПО СЕБЕСУ",
+        "coords": "533 643",
+        "price": 4771,
+        "qty": 692
+      },
+      "buyer": {
+        "nick": "-OssO-",
+        "shop": "Shard 2-3 lvl",
+        "coords": "532 643",
+        "price": 4850,
+        "qty": 5
+      },
+      "profit_per_unit": 79,
+      "executable_qty": 5,
+      "total_profit": 395,
+      "margin_pct": 1.7,
+      "url": "https://dbase.pwclassic.net/cats/item/5301?server=classic"
+    },
+    {
+      "id": 5308,
+      "name": "Черная яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5308.jpg",
+      "seller": {
+        "nick": "Zenna17",
+        "shop": "ПО СЕБЕСУ",
+        "coords": "533 643",
+        "price": 4771,
+        "qty": 665
+      },
+      "buyer": {
+        "nick": "-OssO-",
+        "shop": "Shard 2-3 lvl",
+        "coords": "532 643",
+        "price": 4850,
+        "qty": 5
+      },
+      "profit_per_unit": 79,
+      "executable_qty": 5,
+      "total_profit": 395,
+      "margin_pct": 1.7,
+      "url": "https://dbase.pwclassic.net/cats/item/5308?server=classic"
+    },
+    {
+      "id": 5315,
+      "name": "Красная яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5315.jpg",
+      "seller": {
+        "nick": "Zenna17",
+        "shop": "ПО СЕБЕСУ",
+        "coords": "533 643",
+        "price": 4771,
+        "qty": 441
+      },
+      "buyer": {
+        "nick": "-OssO-",
+        "shop": "Shard 2-3 lvl",
+        "coords": "532 643",
+        "price": 4850,
+        "qty": 5
+      },
+      "profit_per_unit": 79,
+      "executable_qty": 5,
+      "total_profit": 395,
+      "margin_pct": 1.7,
+      "url": "https://dbase.pwclassic.net/cats/item/5315?server=classic"
+    },
+    {
+      "id": 5322,
+      "name": "Желтая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5322.jpg",
+      "seller": {
+        "nick": "Zenna17",
+        "shop": "ПО СЕБЕСУ",
+        "coords": "533 643",
+        "price": 4771,
+        "qty": 185
+      },
+      "buyer": {
+        "nick": "-OssO-",
+        "shop": "Shard 2-3 lvl",
+        "coords": "532 643",
+        "price": 4850,
+        "qty": 5
+      },
+      "profit_per_unit": 79,
+      "executable_qty": 5,
+      "total_profit": 395,
+      "margin_pct": 1.7,
+      "url": "https://dbase.pwclassic.net/cats/item/5322?server=classic"
+    },
+    {
+      "id": 825,
+      "name": "Жир",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/825.jpg",
+      "seller": {
+        "nick": "app19",
+        "shop": "Крфти! 1 Рес",
+        "coords": "550 628",
+        "price": 290,
+        "qty": 99
+      },
+      "buyer": {
+        "nick": "Stridеr",
+        "shop": "Res",
+        "coords": "324 414",
+        "price": 300,
+        "qty": 9
+      },
+      "profit_per_unit": 10,
+      "executable_qty": 9,
+      "total_profit": 90,
+      "margin_pct": 3.4,
+      "url": "https://dbase.pwclassic.net/cats/item/825?server=classic"
     },
     {
       "id": 1845,
@@ -107,8 +807,582 @@
       "url": "https://dbase.pwclassic.net/cats/item/1845?server=classic"
     }
   ],
-  "bargains": [],
+  "bargains": [
+    {
+      "id": 9554,
+      "name": "Темное Несогласие",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9554.jpg",
+      "min_sell": 1000000,
+      "max_sell": 9500000,
+      "avg_sell": 6300000.0,
+      "median_sell": 9500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 89.5,
+      "diff_from_median": 8500000
+    },
+    {
+      "id": 9517,
+      "name": "Светлое Клеймо божеств. пламени",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9517.jpg",
+      "min_sell": 5000000,
+      "max_sell": 15000000,
+      "avg_sell": 10666666.67,
+      "median_sell": 12000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 58.3,
+      "diff_from_median": 7000000
+    },
+    {
+      "id": 9576,
+      "name": "Темная Раскалывающаяся земля",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9576.jpg",
+      "min_sell": 1000000,
+      "max_sell": 7200000,
+      "avg_sell": 5100000.0,
+      "median_sell": 5600000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 82.1,
+      "diff_from_median": 4600000
+    },
+    {
+      "id": 9752,
+      "name": "Темное Разграбление",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9752.jpg",
+      "min_sell": 350000,
+      "max_sell": 4900000,
+      "avg_sell": 3410000.0,
+      "median_sell": 4900000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 92.9,
+      "diff_from_median": 4550000
+    },
+    {
+      "id": 9750,
+      "name": "Темная Слабость",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9750.jpg",
+      "min_sell": 5000000,
+      "max_sell": 12000000,
+      "avg_sell": 8500000.0,
+      "median_sell": 8500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 41.2,
+      "diff_from_median": 3500000
+    },
+    {
+      "id": 9534,
+      "name": "Темная Утренняя роса",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9534.jpg",
+      "min_sell": 500000,
+      "max_sell": 4000000,
+      "avg_sell": 2800000.0,
+      "median_sell": 3900000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 87.2,
+      "diff_from_median": 3400000
+    },
+    {
+      "id": 9476,
+      "name": "Темная Грань вымерзания",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9476.jpg",
+      "min_sell": 500000,
+      "max_sell": 5200000,
+      "avg_sell": 3350000.0,
+      "median_sell": 3850000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 87.0,
+      "diff_from_median": 3350000
+    },
+    {
+      "id": 9448,
+      "name": "Темный прилив",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9448.jpg",
+      "min_sell": 1900000,
+      "max_sell": 6400000,
+      "avg_sell": 4433333.33,
+      "median_sell": 5000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 62.0,
+      "diff_from_median": 3100000
+    },
+    {
+      "id": 36396,
+      "name": "Маленький дракончик",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/36396.jpg",
+      "min_sell": 5000000,
+      "max_sell": 10000000,
+      "avg_sell": 7663333.33,
+      "median_sell": 7990000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 37.4,
+      "diff_from_median": 2990000
+    },
+    {
+      "id": 9526,
+      "name": "Темное Огненное море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9526.jpg",
+      "min_sell": 300000,
+      "max_sell": 3000000,
+      "avg_sell": 2100000.0,
+      "median_sell": 3000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 90.0,
+      "diff_from_median": 2700000
+    },
+    {
+      "id": 9626,
+      "name": "Темное Бескрайнее море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9626.jpg",
+      "min_sell": 800000,
+      "max_sell": 3400000,
+      "avg_sell": 2533333.33,
+      "median_sell": 3400000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 76.5,
+      "diff_from_median": 2600000
+    },
+    {
+      "id": 9662,
+      "name": "Темный Прицел",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9662.jpg",
+      "min_sell": 4900000,
+      "max_sell": 10000000,
+      "avg_sell": 7450000.0,
+      "median_sell": 7450000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 34.2,
+      "diff_from_median": 2550000
+    },
+    {
+      "id": 9563,
+      "name": "Светлая Звериная булава",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9563.jpg",
+      "min_sell": 5000000,
+      "max_sell": 10000000,
+      "avg_sell": 7500000.0,
+      "median_sell": 7500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 33.3,
+      "diff_from_median": 2500000
+    },
+    {
+      "id": 9742,
+      "name": "Темная Хитрость лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9742.jpg",
+      "min_sell": 300000,
+      "max_sell": 5000000,
+      "avg_sell": 2650000.0,
+      "median_sell": 2650000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 88.7,
+      "diff_from_median": 2350000
+    },
+    {
+      "id": 9740,
+      "name": "Темная Тень лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9740.jpg",
+      "min_sell": 250000,
+      "max_sell": 4900000,
+      "avg_sell": 2575000.0,
+      "median_sell": 2575000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 90.3,
+      "diff_from_median": 2325000
+    },
+    {
+      "id": 9694,
+      "name": "Темная Раскалывающая стрела",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9694.jpg",
+      "min_sell": 2000000,
+      "max_sell": 6000000,
+      "avg_sell": 4000000.0,
+      "median_sell": 4000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 50.0,
+      "diff_from_median": 2000000
+    },
+    {
+      "id": 9462,
+      "name": "Темный Удар без тени",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9462.jpg",
+      "min_sell": 250000,
+      "max_sell": 3900000,
+      "avg_sell": 2075000.0,
+      "median_sell": 2075000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 88.0,
+      "diff_from_median": 1825000
+    },
+    {
+      "id": 9731,
+      "name": "Бессмертный: истинный зов лисы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9731.jpg",
+      "min_sell": 100000,
+      "max_sell": 1900000,
+      "avg_sell": 1164285.71,
+      "median_sell": 1500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 93.3,
+      "diff_from_median": 1400000
+    },
+    {
+      "id": 15602,
+      "name": "Соломенный",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15602.jpg",
+      "min_sell": 550000,
+      "max_sell": 3000000,
+      "avg_sell": 1775000.0,
+      "median_sell": 1775000.0,
+      "min_buy": 80000,
+      "max_buy": 300000,
+      "avg_buy": 226666.67,
+      "median_buy": 300000.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 69.0,
+      "diff_from_median": 1225000
+    },
+    {
+      "id": 9543,
+      "name": "Светлый Каменный дождь",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9543.jpg",
+      "min_sell": 1000000,
+      "max_sell": 5000000,
+      "avg_sell": 2666666.67,
+      "median_sell": 2000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 50.0,
+      "diff_from_median": 1000000
+    },
+    {
+      "id": 9443,
+      "name": "Удар истинного тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9443.jpg",
+      "min_sell": 100000,
+      "max_sell": 1000000,
+      "avg_sell": 700000.0,
+      "median_sell": 1000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 90.0,
+      "diff_from_median": 900000
+    },
+    {
+      "id": 9754,
+      "name": "Темная Дикость",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9754.jpg",
+      "min_sell": 1200000,
+      "max_sell": 2500000,
+      "avg_sell": 1925000.0,
+      "median_sell": 2000000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 40.0,
+      "diff_from_median": 800000
+    },
+    {
+      "id": 9528,
+      "name": "Темный Бьющий ключ",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9528.jpg",
+      "min_sell": 75000,
+      "max_sell": 1500000,
+      "avg_sell": 791666.67,
+      "median_sell": 800000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 90.6,
+      "diff_from_median": 725000
+    },
+    {
+      "id": 9661,
+      "name": "Светлый Прицел",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9661.jpg",
+      "min_sell": 1000000,
+      "max_sell": 2000000,
+      "avg_sell": 1500000.0,
+      "median_sell": 1500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 33.3,
+      "diff_from_median": 500000
+    },
+    {
+      "id": 12324,
+      "name": "Яйцо медвежонка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12324.jpg",
+      "min_sell": 1000000,
+      "max_sell": 2000000,
+      "avg_sell": 1500000.0,
+      "median_sell": 1500000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 33.3,
+      "diff_from_median": 500000
+    },
+    {
+      "id": 9492,
+      "name": "Темные Десять тысяч Клинков",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9492.jpg",
+      "min_sell": 250000,
+      "max_sell": 990000,
+      "avg_sell": 670000.0,
+      "median_sell": 745000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 66.4,
+      "diff_from_median": 495000
+    },
+    {
+      "id": 9565,
+      "name": "Светлая Удавка",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9565.jpg",
+      "min_sell": 50000,
+      "max_sell": 5000000,
+      "avg_sell": 2160000.0,
+      "median_sell": 500000.0,
+      "min_buy": 50000,
+      "max_buy": 50000,
+      "avg_buy": 50000.0,
+      "median_buy": 50000.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 90.0,
+      "diff_from_median": 450000
+    },
+    {
+      "id": 15262,
+      "name": "Рука дьяволицы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15262.jpg",
+      "min_sell": 250000,
+      "max_sell": 999999,
+      "avg_sell": 624999.5,
+      "median_sell": 624999.5,
+      "min_buy": 50000,
+      "max_buy": 200000,
+      "avg_buy": 94333.33,
+      "median_buy": 56000.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 60.0,
+      "diff_from_median": 374999
+    },
+    {
+      "id": 9490,
+      "name": "Темный Дух оружия",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9490.jpg",
+      "min_sell": 250000,
+      "max_sell": 990000,
+      "avg_sell": 620000.0,
+      "median_sell": 620000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 59.7,
+      "diff_from_median": 370000
+    },
+    {
+      "id": 26702,
+      "name": "Яйцо малька",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26702.jpg",
+      "min_sell": 100000,
+      "max_sell": 500000,
+      "avg_sell": 366666.67,
+      "median_sell": 400000.0,
+      "min_buy": 0,
+      "max_buy": 0,
+      "avg_buy": 0.0,
+      "median_buy": 0.0,
+      "collected_at": "2026-10-27T22:30:02+03:00",
+      "discount_pct": 75.0,
+      "diff_from_median": 300000
+    }
+  ],
   "all_items": [
+    {
+      "id": 796,
+      "name": "Пиломатериалы",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/796.jpg",
+      "min_sell": 2390,
+      "max_buy": 2010,
+      "median_sell": 2400.0
+    },
+    {
+      "id": 798,
+      "name": "Качественная древесина",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/798.jpg",
+      "min_sell": 5440,
+      "max_buy": 5050,
+      "median_sell": 6490.0
+    },
+    {
+      "id": 797,
+      "name": "Очищенная древесина",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/797.jpg",
+      "min_sell": 7840,
+      "max_buy": 7260,
+      "median_sell": 8200.0
+    },
+    {
+      "id": 795,
+      "name": "Необработанная древесина",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/795.jpg",
+      "min_sell": 1090,
+      "max_buy": 1025,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 799,
+      "name": "Отборное дерево",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/799.jpg",
+      "min_sell": 12000,
+      "max_buy": 12310,
+      "median_sell": 12900.0
+    },
+    {
+      "id": 800,
+      "name": "Железная болванка",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/800.jpg",
+      "min_sell": 1090,
+      "max_buy": 1025,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 802,
+      "name": "Закаленная сталь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/802.jpg",
+      "min_sell": 8550,
+      "max_buy": 8460,
+      "median_sell": 9000.0
+    },
     {
       "id": 801,
       "name": "Высокоуглеродистая сталь",
@@ -124,8 +1398,35 @@
       "category": "Ресурсы",
       "icon": "https://dbase.pwclassic.net/images/icons/m/804.jpg",
       "min_sell": 12000,
-      "max_buy": 12300,
+      "max_buy": 12310,
       "median_sell": 12900.0
+    },
+    {
+      "id": 805,
+      "name": "Гравий",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/805.jpg",
+      "min_sell": 1090,
+      "max_buy": 1040,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 806,
+      "name": "Дробленый камень",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/806.jpg",
+      "min_sell": 2290,
+      "max_buy": 1810,
+      "median_sell": 2350.0
+    },
+    {
+      "id": 803,
+      "name": "Сплавленная сталь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/803.jpg",
+      "min_sell": 6500,
+      "max_buy": 7100,
+      "median_sell": 7990.0
     },
     {
       "id": 808,
@@ -137,6 +1438,42 @@
       "median_sell": 8999.0
     },
     {
+      "id": 809,
+      "name": "Карборунд",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/809.jpg",
+      "min_sell": 12390,
+      "max_buy": 12310,
+      "median_sell": 12900.0
+    },
+    {
+      "id": 807,
+      "name": "Шлифовальный порошок",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/807.jpg",
+      "min_sell": 5990,
+      "max_buy": 6450,
+      "median_sell": 7900.0
+    },
+    {
+      "id": 810,
+      "name": "Шерстяные нитки",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/810.jpg",
+      "min_sell": 2000,
+      "max_buy": 1050,
+      "median_sell": 2000.0
+    },
+    {
+      "id": 811,
+      "name": "Шелковые нитки",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/811.jpg",
+      "min_sell": 7350,
+      "max_buy": 6020,
+      "median_sell": 7700.0
+    },
+    {
       "id": 812,
       "name": "Искусственный шелк",
       "category": "Ресурсы",
@@ -144,6 +1481,51 @@
       "min_sell": 8700,
       "max_buy": 7010,
       "median_sell": 8700.0
+    },
+    {
+      "id": 813,
+      "name": "Шелк шелкопряда-гиганта",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/813.jpg",
+      "min_sell": 1200,
+      "max_buy": 1100,
+      "median_sell": 1650.0
+    },
+    {
+      "id": 814,
+      "name": "Шелк Ариадны",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/814.jpg",
+      "min_sell": 10000,
+      "max_buy": 8000,
+      "median_sell": 13000.0
+    },
+    {
+      "id": 815,
+      "name": "Угольный порошок",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/815.jpg",
+      "min_sell": 740,
+      "max_buy": 700,
+      "median_sell": 950.0
+    },
+    {
+      "id": 816,
+      "name": "Древесный уголь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/816.jpg",
+      "min_sell": 2300,
+      "max_buy": 2010,
+      "median_sell": 2350.0
+    },
+    {
+      "id": 817,
+      "name": "Каменный уголь",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/817.jpg",
+      "min_sell": 4500,
+      "max_buy": 6460,
+      "median_sell": 7625.0
     },
     {
       "id": 818,
@@ -155,6 +1537,42 @@
       "median_sell": 9900.0
     },
     {
+      "id": 819,
+      "name": "Чистое углеродное топливо",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/819.jpg",
+      "min_sell": 12390,
+      "max_buy": 12310,
+      "median_sell": 12900.0
+    },
+    {
+      "id": 821,
+      "name": "Концентрированный клей",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/821.jpg",
+      "min_sell": 7340,
+      "max_buy": 5620,
+      "median_sell": 8000.0
+    },
+    {
+      "id": 820,
+      "name": "Животный клей",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/820.jpg",
+      "min_sell": 124,
+      "max_buy": 100,
+      "median_sell": 250.0
+    },
+    {
+      "id": 822,
+      "name": "Сильный клей",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/822.jpg",
+      "min_sell": 540,
+      "max_buy": 600,
+      "median_sell": 750.0
+    },
+    {
       "id": 823,
       "name": "Пятицветный клей",
       "category": "Ресурсы",
@@ -164,6 +1582,42 @@
       "median_sell": 9750.0
     },
     {
+      "id": 824,
+      "name": "Жидкий металл",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/824.jpg",
+      "min_sell": 10000,
+      "max_buy": 8000,
+      "median_sell": 13500.0
+    },
+    {
+      "id": 825,
+      "name": "Жир",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/825.jpg",
+      "min_sell": 290,
+      "max_buy": 300,
+      "median_sell": 500.0
+    },
+    {
+      "id": 826,
+      "name": "Очищенное масло",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/826.jpg",
+      "min_sell": 4990,
+      "max_buy": 4610,
+      "median_sell": 5500.0
+    },
+    {
+      "id": 827,
+      "name": "Синтетическое масло",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/827.jpg",
+      "min_sell": 9700,
+      "max_buy": 7820,
+      "median_sell": 9890.0
+    },
+    {
       "id": 828,
       "name": "Незатвердевающая смазка",
       "category": "Ресурсы",
@@ -171,6 +1625,42 @@
       "min_sell": 9500,
       "max_buy": 5000,
       "median_sell": 10000.0
+    },
+    {
+      "id": 829,
+      "name": "Нулевая смазка",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/829.jpg",
+      "min_sell": 14000,
+      "max_buy": 8000,
+      "median_sell": 14000.0
+    },
+    {
+      "id": 831,
+      "name": "Дубленая шкура",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/831.jpg",
+      "min_sell": 7840,
+      "max_buy": 6120,
+      "median_sell": 7920.0
+    },
+    {
+      "id": 830,
+      "name": "Мех животных",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/830.jpg",
+      "min_sell": 290,
+      "max_buy": 260,
+      "median_sell": 500.0
+    },
+    {
+      "id": 832,
+      "name": "Кожа",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/832.jpg",
+      "min_sell": 9800,
+      "max_buy": 7720,
+      "median_sell": 9895.0
     },
     {
       "id": 833,
@@ -191,13 +1681,85 @@
       "median_sell": 800.0
     },
     {
-      "id": 1831,
-      "name": "Водный каштан",
+      "id": 834,
+      "name": "Каменная кожа",
+      "category": "Ресурсы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/834.jpg",
+      "min_sell": 13000,
+      "max_buy": 9000,
+      "median_sell": 14000.0
+    },
+    {
+      "id": 1823,
+      "name": "Трава Эмменагога",
       "category": "Трава",
-      "icon": "https://dbase.pwclassic.net/images/icons/m/1831.jpg",
-      "min_sell": 600,
-      "max_buy": 400,
-      "median_sell": 600.0
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1823.jpg",
+      "min_sell": 650,
+      "max_buy": 350,
+      "median_sell": 685.0
+    },
+    {
+      "id": 1821,
+      "name": "Темно-синяя мазь",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1821.jpg",
+      "min_sell": 840,
+      "max_buy": 600,
+      "median_sell": 850.0
+    },
+    {
+      "id": 1825,
+      "name": "Репейник",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1825.jpg",
+      "min_sell": 2900,
+      "max_buy": 1001,
+      "median_sell": 2900.0
+    },
+    {
+      "id": 1824,
+      "name": "Трава Призраков",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1824.jpg",
+      "min_sell": 1500,
+      "max_buy": 1210,
+      "median_sell": 1500.0
+    },
+    {
+      "id": 1826,
+      "name": "Змеиная трава",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1826.jpg",
+      "min_sell": 2699,
+      "max_buy": 2000,
+      "median_sell": 2699.0
+    },
+    {
+      "id": 1828,
+      "name": "Трава картежника",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1828.jpg",
+      "min_sell": 15000,
+      "max_buy": 6020,
+      "median_sell": 15000.0
+    },
+    {
+      "id": 1827,
+      "name": "Трава тигрового уха",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1827.jpg",
+      "min_sell": 2300,
+      "max_buy": 2600,
+      "median_sell": 3200.0
+    },
+    {
+      "id": 1830,
+      "name": "Нектар",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1830.jpg",
+      "min_sell": 1000,
+      "max_buy": 600,
+      "median_sell": 1000.0
     },
     {
       "id": 1832,
@@ -209,6 +1771,96 @@
       "median_sell": 1500.0
     },
     {
+      "id": 1834,
+      "name": "Мышьяк",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1834.jpg",
+      "min_sell": 540,
+      "max_buy": 400,
+      "median_sell": 540.0
+    },
+    {
+      "id": 1835,
+      "name": "Безоар",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1835.jpg",
+      "min_sell": 999,
+      "max_buy": 700,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 1831,
+      "name": "Водный каштан",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1831.jpg",
+      "min_sell": 600,
+      "max_buy": 400,
+      "median_sell": 600.0
+    },
+    {
+      "id": 1837,
+      "name": "Агератум",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1837.jpg",
+      "min_sell": 180,
+      "max_buy": 100,
+      "median_sell": 180.0
+    },
+    {
+      "id": 1839,
+      "name": "Орлиное дерево",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1839.jpg",
+      "min_sell": 495,
+      "max_buy": 600,
+      "median_sell": 850.0
+    },
+    {
+      "id": 1840,
+      "name": "Тюльпан",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1840.jpg",
+      "min_sell": 3000,
+      "max_buy": 3210,
+      "median_sell": 3500.0
+    },
+    {
+      "id": 1838,
+      "name": "Ми Сян",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1838.jpg",
+      "min_sell": 300,
+      "max_buy": 250,
+      "median_sell": 350.0
+    },
+    {
+      "id": 1841,
+      "name": "Жасминный апельсин",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1841.jpg",
+      "min_sell": 2600,
+      "max_buy": 3600,
+      "median_sell": 15000.0
+    },
+    {
+      "id": 1842,
+      "name": "Эссенция просвещения",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1842.jpg",
+      "min_sell": 5000,
+      "max_buy": 3620,
+      "median_sell": 15000.0
+    },
+    {
+      "id": 1844,
+      "name": "Молочай",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1844.jpg",
+      "min_sell": 270,
+      "max_buy": 150,
+      "median_sell": 275.0
+    },
+    {
       "id": 1845,
       "name": "Конский каштан",
       "category": "Трава",
@@ -216,6 +1868,4290 @@
       "min_sell": 399,
       "max_buy": 400,
       "median_sell": 500.0
+    },
+    {
+      "id": 1846,
+      "name": "Белена",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1846.jpg",
+      "min_sell": 999,
+      "max_buy": 550,
+      "median_sell": 1000.0
+    },
+    {
+      "id": 1848,
+      "name": "Древесная бабочка",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1848.jpg",
+      "min_sell": 1800,
+      "max_buy": 1320,
+      "median_sell": 2100.0
+    },
+    {
+      "id": 1850,
+      "name": "Зеленая слива",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1850.jpg",
+      "min_sell": 999,
+      "max_buy": 710,
+      "median_sell": 1350.0
+    },
+    {
+      "id": 1851,
+      "name": "Красная слива",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1851.jpg",
+      "min_sell": 1050,
+      "max_buy": 1020,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 1852,
+      "name": "Белая слива",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1852.jpg",
+      "min_sell": 1300,
+      "max_buy": 1510,
+      "median_sell": 1700.0
+    },
+    {
+      "id": 1854,
+      "name": "Палочник",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1854.jpg",
+      "min_sell": 2190,
+      "max_buy": 1820,
+      "median_sell": 2300.0
+    },
+    {
+      "id": 1855,
+      "name": "Жук Девяти ароматов",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1855.jpg",
+      "min_sell": 2600,
+      "max_buy": 3220,
+      "median_sell": 15000.0
+    },
+    {
+      "id": 1857,
+      "name": "Пьянящая роса бессмертия",
+      "category": "Трава",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1857.jpg",
+      "min_sell": 525,
+      "max_buy": 800,
+      "median_sell": 1350.0
+    },
+    {
+      "id": 1996,
+      "name": "Рубиновый камень 5ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1996.jpg",
+      "min_sell": 0,
+      "max_buy": 30000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 1998,
+      "name": "Камень красный глаз",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/1998.jpg",
+      "min_sell": 250000000,
+      "max_buy": 0,
+      "median_sell": 250000000.0
+    },
+    {
+      "id": 2001,
+      "name": "Сапфировый камень 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2001.jpg",
+      "min_sell": 40000,
+      "max_buy": 20000,
+      "median_sell": 40000.0
+    },
+    {
+      "id": 2005,
+      "name": "Топазовый камень 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2005.jpg",
+      "min_sell": 8000,
+      "max_buy": 3000,
+      "median_sell": 8000.0
+    },
+    {
+      "id": 2006,
+      "name": "Камень слепящего света",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2006.jpg",
+      "min_sell": 18000000,
+      "max_buy": 0,
+      "median_sell": 18000000.0
+    },
+    {
+      "id": 2009,
+      "name": "Изумрудный камень 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2009.jpg",
+      "min_sell": 50000,
+      "max_buy": 15000,
+      "median_sell": 50000.0
+    },
+    {
+      "id": 2012,
+      "name": "Янтарный камень 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2012.jpg",
+      "min_sell": 0,
+      "max_buy": 40000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 2013,
+      "name": "Камень безбрежности",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/2013.jpg",
+      "min_sell": 350000000,
+      "max_buy": 100000000,
+      "median_sell": 350000000.0
+    },
+    {
+      "id": 3638,
+      "name": "Сапфировый камень 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/3638.jpg",
+      "min_sell": 500,
+      "max_buy": 0,
+      "median_sell": 500.0
+    },
+    {
+      "id": 3645,
+      "name": "Изумрудный камень 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/3645.jpg",
+      "min_sell": 10000,
+      "max_buy": 0,
+      "median_sell": 10000.0
+    },
+    {
+      "id": 5292,
+      "name": "Белая яшма 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5292.jpg",
+      "min_sell": 650,
+      "max_buy": 550,
+      "median_sell": 650.0
+    },
+    {
+      "id": 5294,
+      "name": "Белая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5294.jpg",
+      "min_sell": 4771,
+      "max_buy": 4850,
+      "median_sell": 4870.0
+    },
+    {
+      "id": 5293,
+      "name": "Белая яшма 2 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5293.jpg",
+      "min_sell": 1750,
+      "max_buy": 1650,
+      "median_sell": 1750.0
+    },
+    {
+      "id": 5295,
+      "name": "Белая яшма 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5295.jpg",
+      "min_sell": 14350,
+      "max_buy": 14350,
+      "median_sell": 14540.0
+    },
+    {
+      "id": 5296,
+      "name": "Белая яшма 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5296.jpg",
+      "min_sell": 20000,
+      "max_buy": 0,
+      "median_sell": 20000.0
+    },
+    {
+      "id": 5299,
+      "name": "Зеленая яшма 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5299.jpg",
+      "min_sell": 650,
+      "max_buy": 550,
+      "median_sell": 650.0
+    },
+    {
+      "id": 5300,
+      "name": "Зеленая яшма 2 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5300.jpg",
+      "min_sell": 1750,
+      "max_buy": 1650,
+      "median_sell": 1750.0
+    },
+    {
+      "id": 5301,
+      "name": "Зеленая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5301.jpg",
+      "min_sell": 4771,
+      "max_buy": 4850,
+      "median_sell": 4890.0
+    },
+    {
+      "id": 5302,
+      "name": "Зеленая яшма 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5302.jpg",
+      "min_sell": 14350,
+      "max_buy": 14350,
+      "median_sell": 14540.0
+    },
+    {
+      "id": 5303,
+      "name": "Зеленая яшма 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5303.jpg",
+      "min_sell": 0,
+      "max_buy": 1500,
+      "median_sell": 0.0
+    },
+    {
+      "id": 5306,
+      "name": "Черная яшма 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5306.jpg",
+      "min_sell": 650,
+      "max_buy": 550,
+      "median_sell": 650.0
+    },
+    {
+      "id": 5307,
+      "name": "Черная яшма 2 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5307.jpg",
+      "min_sell": 1750,
+      "max_buy": 1650,
+      "median_sell": 1750.0
+    },
+    {
+      "id": 5308,
+      "name": "Черная яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5308.jpg",
+      "min_sell": 4771,
+      "max_buy": 4850,
+      "median_sell": 4890.0
+    },
+    {
+      "id": 5309,
+      "name": "Черная яшма 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5309.jpg",
+      "min_sell": 14350,
+      "max_buy": 14350,
+      "median_sell": 14875.0
+    },
+    {
+      "id": 5310,
+      "name": "Черная яшма 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5310.jpg",
+      "min_sell": 20000,
+      "max_buy": 1500,
+      "median_sell": 20000.0
+    },
+    {
+      "id": 5313,
+      "name": "Красная яшма 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5313.jpg",
+      "min_sell": 650,
+      "max_buy": 550,
+      "median_sell": 650.0
+    },
+    {
+      "id": 5314,
+      "name": "Красная яшма 2 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5314.jpg",
+      "min_sell": 1750,
+      "max_buy": 1650,
+      "median_sell": 1750.0
+    },
+    {
+      "id": 5315,
+      "name": "Красная яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5315.jpg",
+      "min_sell": 4771,
+      "max_buy": 4850,
+      "median_sell": 4890.0
+    },
+    {
+      "id": 5316,
+      "name": "Красная яшма 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5316.jpg",
+      "min_sell": 14350,
+      "max_buy": 14350,
+      "median_sell": 14695.0
+    },
+    {
+      "id": 5317,
+      "name": "Красная яшма 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5317.jpg",
+      "min_sell": 0,
+      "max_buy": 2500,
+      "median_sell": 0.0
+    },
+    {
+      "id": 5320,
+      "name": "Желтая яшма 1 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5320.jpg",
+      "min_sell": 650,
+      "max_buy": 550,
+      "median_sell": 650.0
+    },
+    {
+      "id": 5321,
+      "name": "Желтая яшма 2 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5321.jpg",
+      "min_sell": 1750,
+      "max_buy": 1650,
+      "median_sell": 1750.0
+    },
+    {
+      "id": 5322,
+      "name": "Желтая яшма 3 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5322.jpg",
+      "min_sell": 4771,
+      "max_buy": 4850,
+      "median_sell": 4890.0
+    },
+    {
+      "id": 5323,
+      "name": "Желтая яшма 4 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5323.jpg",
+      "min_sell": 14360,
+      "max_buy": 14350,
+      "median_sell": 14875.0
+    },
+    {
+      "id": 6367,
+      "name": "Рубиновый камень 7ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6367.jpg",
+      "min_sell": 290000,
+      "max_buy": 255000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 5324,
+      "name": "Желтая яшма 5 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/5324.jpg",
+      "min_sell": 0,
+      "max_buy": 2500,
+      "median_sell": 0.0
+    },
+    {
+      "id": 6368,
+      "name": "Рубиновый камень 8ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6368.jpg",
+      "min_sell": 1350000,
+      "max_buy": 1200000,
+      "median_sell": 1350000.0
+    },
+    {
+      "id": 6369,
+      "name": "Рубиновый камень 6ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6369.jpg",
+      "min_sell": 0,
+      "max_buy": 65000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 6370,
+      "name": "Рубиновый камень 9ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6370.jpg",
+      "min_sell": 7400000,
+      "max_buy": 5250000,
+      "median_sell": 7400000.0
+    },
+    {
+      "id": 6374,
+      "name": "Сапфировый камень 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6374.jpg",
+      "min_sell": 75000,
+      "max_buy": 40000,
+      "median_sell": 75000.0
+    },
+    {
+      "id": 6375,
+      "name": "Сапфировый камень 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6375.jpg",
+      "min_sell": 155000,
+      "max_buy": 132000,
+      "median_sell": 170000.0
+    },
+    {
+      "id": 6376,
+      "name": "Сапфировый камень 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6376.jpg",
+      "min_sell": 735000,
+      "max_buy": 650000,
+      "median_sell": 795000.0
+    },
+    {
+      "id": 6377,
+      "name": "Сапфировый камень 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6377.jpg",
+      "min_sell": 4000000,
+      "max_buy": 3000000,
+      "median_sell": 4000000.0
+    },
+    {
+      "id": 6379,
+      "name": "Топазовый камень 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6379.jpg",
+      "min_sell": 30000,
+      "max_buy": 10000,
+      "median_sell": 30000.0
+    },
+    {
+      "id": 6380,
+      "name": "Топазовый камень 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6380.jpg",
+      "min_sell": 26000,
+      "max_buy": 25500,
+      "median_sell": 32000.0
+    },
+    {
+      "id": 6381,
+      "name": "Топазовый камень 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6381.jpg",
+      "min_sell": 150000,
+      "max_buy": 135000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 6382,
+      "name": "Топазовый камень 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6382.jpg",
+      "min_sell": 740000,
+      "max_buy": 600000,
+      "median_sell": 740000.0
+    },
+    {
+      "id": 6386,
+      "name": "Янтарный камень 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6386.jpg",
+      "min_sell": 3000000,
+      "max_buy": 2000000,
+      "median_sell": 3000000.0
+    },
+    {
+      "id": 6385,
+      "name": "Янтарный камень 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6385.jpg",
+      "min_sell": 540000,
+      "max_buy": 400000,
+      "median_sell": 590000.0
+    },
+    {
+      "id": 6384,
+      "name": "Янтарный камень 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6384.jpg",
+      "min_sell": 100000,
+      "max_buy": 80000,
+      "median_sell": 125000.0
+    },
+    {
+      "id": 6387,
+      "name": "Янтарный камень 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6387.jpg",
+      "min_sell": 15000000,
+      "max_buy": 7500000,
+      "median_sell": 15500000.0
+    },
+    {
+      "id": 6389,
+      "name": "Изумрудный камень 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6389.jpg",
+      "min_sell": 0,
+      "max_buy": 15000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 6390,
+      "name": "Изумрудный камень 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6390.jpg",
+      "min_sell": 75000,
+      "max_buy": 60000,
+      "median_sell": 99000.0
+    },
+    {
+      "id": 6391,
+      "name": "Изумрудный камень 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6391.jpg",
+      "min_sell": 350000,
+      "max_buy": 310000,
+      "median_sell": 400000.0
+    },
+    {
+      "id": 6392,
+      "name": "Изумрудный камень 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6392.jpg",
+      "min_sell": 0,
+      "max_buy": 1550000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 6394,
+      "name": "Белая яшма 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6394.jpg",
+      "min_sell": 20000,
+      "max_buy": 10000,
+      "median_sell": 20000.0
+    },
+    {
+      "id": 6395,
+      "name": "Белая яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6395.jpg",
+      "min_sell": 30000,
+      "max_buy": 40000,
+      "median_sell": 40000.0
+    },
+    {
+      "id": 6397,
+      "name": "Белая яшма 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6397.jpg",
+      "min_sell": 720000,
+      "max_buy": 650000,
+      "median_sell": 810000.0
+    },
+    {
+      "id": 6396,
+      "name": "Белая яшма 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6396.jpg",
+      "min_sell": 150000,
+      "max_buy": 125000,
+      "median_sell": 150000.0
+    },
+    {
+      "id": 6399,
+      "name": "Зеленая яшма 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6399.jpg",
+      "min_sell": 13000,
+      "max_buy": 5000,
+      "median_sell": 13000.0
+    },
+    {
+      "id": 6400,
+      "name": "Зеленая яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6400.jpg",
+      "min_sell": 20000,
+      "max_buy": 15000,
+      "median_sell": 20000.0
+    },
+    {
+      "id": 6401,
+      "name": "Зеленая яшма 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6401.jpg",
+      "min_sell": 80000,
+      "max_buy": 30000,
+      "median_sell": 80000.0
+    },
+    {
+      "id": 6402,
+      "name": "Зеленая яшма 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6402.jpg",
+      "min_sell": 410000,
+      "max_buy": 300000,
+      "median_sell": 410000.0
+    },
+    {
+      "id": 6404,
+      "name": "Черная яшма 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6404.jpg",
+      "min_sell": 10000,
+      "max_buy": 5000,
+      "median_sell": 25000.0
+    },
+    {
+      "id": 6405,
+      "name": "Черная яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6405.jpg",
+      "min_sell": 8500,
+      "max_buy": 5000,
+      "median_sell": 9000.0
+    },
+    {
+      "id": 6406,
+      "name": "Черная яшма 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6406.jpg",
+      "min_sell": 34000,
+      "max_buy": 25000,
+      "median_sell": 34444.0
+    },
+    {
+      "id": 6407,
+      "name": "Черная яшма 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6407.jpg",
+      "min_sell": 120000,
+      "max_buy": 100000,
+      "median_sell": 142500.0
+    },
+    {
+      "id": 6411,
+      "name": "Красная яшма 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6411.jpg",
+      "min_sell": 270000,
+      "max_buy": 270000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 6410,
+      "name": "Красная яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6410.jpg",
+      "min_sell": 60000,
+      "max_buy": 60000,
+      "median_sell": 60000.0
+    },
+    {
+      "id": 6409,
+      "name": "Красная яшма 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6409.jpg",
+      "min_sell": 30000,
+      "max_buy": 10000,
+      "median_sell": 30000.0
+    },
+    {
+      "id": 6412,
+      "name": "Красная яшма 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6412.jpg",
+      "min_sell": 1200000,
+      "max_buy": 1100000,
+      "median_sell": 1350000.0
+    },
+    {
+      "id": 6414,
+      "name": "Желтая яшма 6 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6414.jpg",
+      "min_sell": 35000,
+      "max_buy": 15000,
+      "median_sell": 35000.0
+    },
+    {
+      "id": 6415,
+      "name": "Желтая яшма 7 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6415.jpg",
+      "min_sell": 95000,
+      "max_buy": 80000,
+      "median_sell": 95000.0
+    },
+    {
+      "id": 6416,
+      "name": "Желтая яшма 8 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6416.jpg",
+      "min_sell": 490000,
+      "max_buy": 360000,
+      "median_sell": 495000.0
+    },
+    {
+      "id": 6417,
+      "name": "Желтая яшма 9 ур.",
+      "category": "Камни",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/6417.jpg",
+      "min_sell": 0,
+      "max_buy": 1600000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 15227,
+      "name": "Клинок Цинь Тяня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15227.jpg",
+      "min_sell": 60000,
+      "max_buy": 50000,
+      "median_sell": 73000.0
+    },
+    {
+      "id": 15229,
+      "name": "Кость",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15229.jpg",
+      "min_sell": 500,
+      "max_buy": 450,
+      "median_sell": 1100.0
+    },
+    {
+      "id": 15228,
+      "name": "Барабан разрушения",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15228.jpg",
+      "min_sell": 110000,
+      "max_buy": 95000,
+      "median_sell": 135000.0
+    },
+    {
+      "id": 15230,
+      "name": "Кусок доспеха Цинь Тяня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15230.jpg",
+      "min_sell": 700,
+      "max_buy": 500,
+      "median_sell": 2000.0
+    },
+    {
+      "id": 15231,
+      "name": "Целый корпус барабана",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15231.jpg",
+      "min_sell": 160000,
+      "max_buy": 140000,
+      "median_sell": 219000.0
+    },
+    {
+      "id": 15232,
+      "name": "Призрачное щупальце",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15232.jpg",
+      "min_sell": 35000,
+      "max_buy": 25000,
+      "median_sell": 37000.0
+    },
+    {
+      "id": 15233,
+      "name": "Шкура обезумевшего льва",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15233.jpg",
+      "min_sell": 4900,
+      "max_buy": 4000,
+      "median_sell": 7000.0
+    },
+    {
+      "id": 15234,
+      "name": "Кожа древней змеи",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15234.jpg",
+      "min_sell": 225000,
+      "max_buy": 196000,
+      "median_sell": 240000.0
+    },
+    {
+      "id": 15235,
+      "name": "Часть сломанной золотой брони",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15235.jpg",
+      "min_sell": 330000,
+      "max_buy": 300000,
+      "median_sell": 375000.0
+    },
+    {
+      "id": 15236,
+      "name": "Шлем лейтенанта Шен Ву",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15236.jpg",
+      "min_sell": 460000,
+      "max_buy": 355020,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 15237,
+      "name": "Опал Шена Ву",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15237.jpg",
+      "min_sell": 2500000,
+      "max_buy": 1055000,
+      "median_sell": 2500000.0
+    },
+    {
+      "id": 15238,
+      "name": "Дырявый череп",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15238.jpg",
+      "min_sell": 1730,
+      "max_buy": 2000,
+      "median_sell": 2500.0
+    },
+    {
+      "id": 15239,
+      "name": "Тяжелый доспех Цинь Тяня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15239.jpg",
+      "min_sell": 64980,
+      "max_buy": 50010,
+      "median_sell": 70000.0
+    },
+    {
+      "id": 15240,
+      "name": "Большой прочный барабан",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15240.jpg",
+      "min_sell": 139000,
+      "max_buy": 134000,
+      "median_sell": 140000.0
+    },
+    {
+      "id": 15241,
+      "name": "Когти обезумевшего льва",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15241.jpg",
+      "min_sell": 49000,
+      "max_buy": 52000,
+      "median_sell": 60000.0
+    },
+    {
+      "id": 15242,
+      "name": "Призрачное золотое зеркало",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15242.jpg",
+      "min_sell": 370000,
+      "max_buy": 285010,
+      "median_sell": 370000.0
+    },
+    {
+      "id": 15243,
+      "name": "Пика лейтенанта Шен Ву",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15243.jpg",
+      "min_sell": 160000,
+      "max_buy": 130000,
+      "median_sell": 161500.0
+    },
+    {
+      "id": 15244,
+      "name": "Кровь древнего змея",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15244.jpg",
+      "min_sell": 115000,
+      "max_buy": 106500,
+      "median_sell": 115000.0
+    },
+    {
+      "id": 15245,
+      "name": "Кусок золотой брони",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15245.jpg",
+      "min_sell": 40000,
+      "max_buy": 40000,
+      "median_sell": 42500.0
+    },
+    {
+      "id": 15246,
+      "name": "Черный доспех Фэн Ухэня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15246.jpg",
+      "min_sell": 43000,
+      "max_buy": 22010,
+      "median_sell": 44000.0
+    },
+    {
+      "id": 15247,
+      "name": "Клык великой обезьяны",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15247.jpg",
+      "min_sell": 369990,
+      "max_buy": 320000,
+      "median_sell": 375000.0
+    },
+    {
+      "id": 15248,
+      "name": "Коготь пожирателя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15248.jpg",
+      "min_sell": 51990,
+      "max_buy": 20000,
+      "median_sell": 55000.0
+    },
+    {
+      "id": 15249,
+      "name": "Металлический посох Фэн Ухэня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15249.jpg",
+      "min_sell": 289000,
+      "max_buy": 290000,
+      "median_sell": 330000.0
+    },
+    {
+      "id": 15250,
+      "name": "Шкура великой обезьяны",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15250.jpg",
+      "min_sell": 140000,
+      "max_buy": 152000,
+      "median_sell": 149000.0
+    },
+    {
+      "id": 15251,
+      "name": "Мех пожирателя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15251.jpg",
+      "min_sell": 700,
+      "max_buy": 20000,
+      "median_sell": 15000.0
+    },
+    {
+      "id": 15252,
+      "name": "Дух древнего змея",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15252.jpg",
+      "min_sell": 4500000,
+      "max_buy": 3700000,
+      "median_sell": 4500000.0
+    },
+    {
+      "id": 15253,
+      "name": "Дух золотого доспеха",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15253.jpg",
+      "min_sell": 4450000,
+      "max_buy": 3700000,
+      "median_sell": 4500000.0
+    },
+    {
+      "id": 15254,
+      "name": "Наручи Фэн Ухэня",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15254.jpg",
+      "min_sell": 3000000,
+      "max_buy": 1000000,
+      "median_sell": 3000000.0
+    },
+    {
+      "id": 15255,
+      "name": "Лапа великой обезьяны",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15255.jpg",
+      "min_sell": 120000,
+      "max_buy": 55000,
+      "median_sell": 120000.0
+    },
+    {
+      "id": 15256,
+      "name": "Древний меч",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15256.jpg",
+      "min_sell": 1790,
+      "max_buy": 1760,
+      "median_sell": 1800.0
+    },
+    {
+      "id": 15257,
+      "name": "Острое лезвие обезумевшего льва",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15257.jpg",
+      "min_sell": 140,
+      "max_buy": 0,
+      "median_sell": 150.0
+    },
+    {
+      "id": 15259,
+      "name": "Часть руки лейтенанта Шен Ву",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15259.jpg",
+      "min_sell": 430000,
+      "max_buy": 400000,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 15258,
+      "name": "Железные доспехи тьмы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15258.jpg",
+      "min_sell": 2800,
+      "max_buy": 2200,
+      "median_sell": 3499.5
+    },
+    {
+      "id": 15260,
+      "name": "Длинный рог раба-призрака",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15260.jpg",
+      "min_sell": 4500,
+      "max_buy": 2300,
+      "median_sell": 5800.0
+    },
+    {
+      "id": 15261,
+      "name": "Боевой конь лейтенанта Шен Ву",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15261.jpg",
+      "min_sell": 80000,
+      "max_buy": 70020,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 15262,
+      "name": "Рука дьяволицы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15262.jpg",
+      "min_sell": 250000,
+      "max_buy": 200000,
+      "median_sell": 624999.5
+    },
+    {
+      "id": 15263,
+      "name": "Камень монахини",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15263.jpg",
+      "min_sell": 60000,
+      "max_buy": 45000,
+      "median_sell": 64999.0
+    },
+    {
+      "id": 15264,
+      "name": "Хвост великой обезьяны",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15264.jpg",
+      "min_sell": 58000,
+      "max_buy": 52020,
+      "median_sell": 58000.0
+    },
+    {
+      "id": 15265,
+      "name": "Звездная пыль",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15265.jpg",
+      "min_sell": 270000,
+      "max_buy": 280000,
+      "median_sell": 292000.0
+    },
+    {
+      "id": 15266,
+      "name": "Кисть призрачного короля",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15266.jpg",
+      "min_sell": 199000,
+      "max_buy": 200000,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 15267,
+      "name": "Железная борода пожирателя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15267.jpg",
+      "min_sell": 615000,
+      "max_buy": 590010,
+      "median_sell": 620000.0
+    },
+    {
+      "id": 15268,
+      "name": "Тяжелый доспех великого Зверя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15268.jpg",
+      "min_sell": 29000,
+      "max_buy": 25000,
+      "median_sell": 33999.5
+    },
+    {
+      "id": 15269,
+      "name": "Призматический диск",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15269.jpg",
+      "min_sell": 500,
+      "max_buy": 1000,
+      "median_sell": 850.0
+    },
+    {
+      "id": 15270,
+      "name": "Звездный камень",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15270.jpg",
+      "min_sell": 2880,
+      "max_buy": 1500,
+      "median_sell": 3500.0
+    },
+    {
+      "id": 15271,
+      "name": "Рог древнего демона",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15271.jpg",
+      "min_sell": 480,
+      "max_buy": 110,
+      "median_sell": 500.0
+    },
+    {
+      "id": 15272,
+      "name": "Прах древнего демона",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15272.jpg",
+      "min_sell": 16980,
+      "max_buy": 8500,
+      "median_sell": 17000.0
+    },
+    {
+      "id": 15273,
+      "name": "Панцирь раба-призрака",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15273.jpg",
+      "min_sell": 7500000,
+      "max_buy": 5200000,
+      "median_sell": 7750000.0
+    },
+    {
+      "id": 15274,
+      "name": "Корона монахини",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15274.jpg",
+      "min_sell": 8800000,
+      "max_buy": 6800000,
+      "median_sell": 8950000.0
+    },
+    {
+      "id": 15275,
+      "name": "Прикосновение 7-ми светил",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15275.jpg",
+      "min_sell": 7999999,
+      "max_buy": 0,
+      "median_sell": 7999999.5
+    },
+    {
+      "id": 15276,
+      "name": "Панцирь великого Зверя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15276.jpg",
+      "min_sell": 6300000,
+      "max_buy": 4800000,
+      "median_sell": 6300000.0
+    },
+    {
+      "id": 15277,
+      "name": "Сила духа 7-ми светил",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15277.jpg",
+      "min_sell": 1000000,
+      "max_buy": 250000,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 15278,
+      "name": "Дух древнего демона",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15278.jpg",
+      "min_sell": 25000000,
+      "max_buy": 18000000,
+      "median_sell": 25000000.0
+    },
+    {
+      "id": 15279,
+      "name": "Храмовый камень",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15279.jpg",
+      "min_sell": 2000,
+      "max_buy": 2000,
+      "median_sell": 2000.0
+    },
+    {
+      "id": 15280,
+      "name": "Темная чешуя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15280.jpg",
+      "min_sell": 12000,
+      "max_buy": 7000,
+      "median_sell": 12000.0
+    },
+    {
+      "id": 15281,
+      "name": "Лезвие топора раба-призрака",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15281.jpg",
+      "min_sell": 400,
+      "max_buy": 0,
+      "median_sell": 400.0
+    },
+    {
+      "id": 15282,
+      "name": "Темные клещи",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15282.jpg",
+      "min_sell": 2150,
+      "max_buy": 1500,
+      "median_sell": 2200.0
+    },
+    {
+      "id": 15283,
+      "name": "Корона дьяволицы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15283.jpg",
+      "min_sell": 750,
+      "max_buy": 550,
+      "median_sell": 800.0
+    },
+    {
+      "id": 15284,
+      "name": "Пылкое сердце раба-призрака",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15284.jpg",
+      "min_sell": 100000,
+      "max_buy": 100000,
+      "median_sell": 114000.0
+    },
+    {
+      "id": 15285,
+      "name": "Камень духа монахини",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15285.jpg",
+      "min_sell": 1500,
+      "max_buy": 0,
+      "median_sell": 1600.0
+    },
+    {
+      "id": 15286,
+      "name": "Энергия дьяволицы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15286.jpg",
+      "min_sell": 400,
+      "max_buy": 1,
+      "median_sell": 400.0
+    },
+    {
+      "id": 15287,
+      "name": "Сила короля призраков",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15287.jpg",
+      "min_sell": 250000,
+      "max_buy": 210000,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 15288,
+      "name": "Сердце монахини",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15288.jpg",
+      "min_sell": 240,
+      "max_buy": 500,
+      "median_sell": 240.0
+    },
+    {
+      "id": 15289,
+      "name": "Дыхание Тьмы великого Зверя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15289.jpg",
+      "min_sell": 120000,
+      "max_buy": 60000,
+      "median_sell": 120000.0
+    },
+    {
+      "id": 15290,
+      "name": "Золотой шелк короля призраков",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15290.jpg",
+      "min_sell": 13000,
+      "max_buy": 1000,
+      "median_sell": 14000.0
+    },
+    {
+      "id": 15291,
+      "name": "Кровавый рог великого Зверя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15291.jpg",
+      "min_sell": 240,
+      "max_buy": 100,
+      "median_sell": 240.0
+    },
+    {
+      "id": 15292,
+      "name": "Камень Верданта",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15292.jpg",
+      "min_sell": 399,
+      "max_buy": 250,
+      "median_sell": 400.0
+    },
+    {
+      "id": 15293,
+      "name": "Лезвие Верданта",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15293.jpg",
+      "min_sell": 400,
+      "max_buy": 300,
+      "median_sell": 400.0
+    },
+    {
+      "id": 15294,
+      "name": "Маска душевной чистоты",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15294.jpg",
+      "min_sell": 38000,
+      "max_buy": 30000,
+      "median_sell": 52500.0
+    },
+    {
+      "id": 15295,
+      "name": "Печать министра",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15295.jpg",
+      "min_sell": 25000,
+      "max_buy": 0,
+      "median_sell": 55000.0
+    },
+    {
+      "id": 15296,
+      "name": "Воинственный дух короля",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15296.jpg",
+      "min_sell": 240,
+      "max_buy": 100,
+      "median_sell": 240.0
+    },
+    {
+      "id": 15297,
+      "name": "Шелковая плеть очищения",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15297.jpg",
+      "min_sell": 240,
+      "max_buy": 100,
+      "median_sell": 800.0
+    },
+    {
+      "id": 15298,
+      "name": "Весна Иллюзорного Зеркала",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15298.jpg",
+      "min_sell": 240,
+      "max_buy": 0,
+      "median_sell": 240.0
+    },
+    {
+      "id": 15301,
+      "name": "Лапа великого Зверя",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15301.jpg",
+      "min_sell": 0,
+      "max_buy": 6250000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 15299,
+      "name": "Душа дьяволицы",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15299.jpg",
+      "min_sell": 12475000,
+      "max_buy": 10850000,
+      "median_sell": 12500000.0
+    },
+    {
+      "id": 15302,
+      "name": "Информация о династии",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15302.jpg",
+      "min_sell": 18000000,
+      "max_buy": 15000000,
+      "median_sell": 18000000.0
+    },
+    {
+      "id": 15303,
+      "name": "Черная душа непорочности",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15303.jpg",
+      "min_sell": 17900000,
+      "max_buy": 13200000,
+      "median_sell": 18000000.0
+    },
+    {
+      "id": 15304,
+      "name": "Воспоминания о династии",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15304.jpg",
+      "min_sell": 350000,
+      "max_buy": 100000,
+      "median_sell": 350000.0
+    },
+    {
+      "id": 15305,
+      "name": "Яркие крылья очищения",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15305.jpg",
+      "min_sell": 130000,
+      "max_buy": 20000,
+      "median_sell": 210000.0
+    },
+    {
+      "id": 15306,
+      "name": "Эмблема повелителя иллюзий",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15306.jpg",
+      "min_sell": 50000,
+      "max_buy": 25000,
+      "median_sell": 75000.0
+    },
+    {
+      "id": 15308,
+      "name": "Символ Заката",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15308.jpg",
+      "min_sell": 1500,
+      "max_buy": 300,
+      "median_sell": 1500.0
+    },
+    {
+      "id": 15311,
+      "name": "Дух Неба и Земли",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15311.jpg",
+      "min_sell": 1500000000,
+      "max_buy": 0,
+      "median_sell": 1500000000.0
+    },
+    {
+      "id": 15307,
+      "name": "Камень грез",
+      "category": "ХХ и Данжи",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15307.jpg",
+      "min_sell": 6100000,
+      "max_buy": 4500000,
+      "median_sell": 7500000.0
+    },
+    {
+      "id": 15037,
+      "name": "Краситель",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15037.jpg",
+      "min_sell": 70000,
+      "max_buy": 50000,
+      "median_sell": 70000.0
+    },
+    {
+      "id": 15312,
+      "name": "Белоснежный краситель",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15312.jpg",
+      "min_sell": 850000,
+      "max_buy": 400000,
+      "median_sell": 950000.0
+    },
+    {
+      "id": 15314,
+      "name": "Иссиня черный краситель",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15314.jpg",
+      "min_sell": 950000,
+      "max_buy": 400000,
+      "median_sell": 950000.0
+    },
+    {
+      "id": 15579,
+      "name": "Красный гранат",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15579.jpg",
+      "min_sell": 4000000,
+      "max_buy": 1600000,
+      "median_sell": 4500000.0
+    },
+    {
+      "id": 15580,
+      "name": "Фэй",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15580.jpg",
+      "min_sell": 160000,
+      "max_buy": 115000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15581,
+      "name": "Свежий апельсин",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15581.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15582,
+      "name": "Манго",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15582.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15584,
+      "name": "Цитрин",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15584.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15585,
+      "name": "Трава",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15585.jpg",
+      "min_sell": 160000,
+      "max_buy": 100000,
+      "median_sell": 180000.0
+    },
+    {
+      "id": 15586,
+      "name": "Зеленый пепперминт",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15586.jpg",
+      "min_sell": 160000,
+      "max_buy": 60000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15587,
+      "name": "Желтый гусь",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15587.jpg",
+      "min_sell": 200000,
+      "max_buy": 95000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15588,
+      "name": "Гинкго",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15588.jpg",
+      "min_sell": 300000,
+      "max_buy": 115000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 15589,
+      "name": "Кармине",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15589.jpg",
+      "min_sell": 160000,
+      "max_buy": 115000,
+      "median_sell": 210000.0
+    },
+    {
+      "id": 15590,
+      "name": "Коричневый песок",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15590.jpg",
+      "min_sell": 600000,
+      "max_buy": 115000,
+      "median_sell": 600000.0
+    },
+    {
+      "id": 15591,
+      "name": "Зеленый кокос",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15591.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15592,
+      "name": "Дианкинг цвет краски",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15592.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15593,
+      "name": "Изумруд",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15593.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 15594,
+      "name": "Сине-зеленый",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15594.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 15595,
+      "name": "Небесного цвета",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15595.jpg",
+      "min_sell": 160000,
+      "max_buy": 60000,
+      "median_sell": 230000.0
+    },
+    {
+      "id": 15596,
+      "name": "Озерный",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15596.jpg",
+      "min_sell": 160000,
+      "max_buy": 85000,
+      "median_sell": 180000.0
+    },
+    {
+      "id": 15597,
+      "name": "Индиго",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15597.jpg",
+      "min_sell": 200000,
+      "max_buy": 85000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15598,
+      "name": "Лейн",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15598.jpg",
+      "min_sell": 160000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15599,
+      "name": "сине-фиолетовый",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15599.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15600,
+      "name": "Пурпурный",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15600.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15601,
+      "name": "Индиго",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15601.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15602,
+      "name": "Соломенный",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15602.jpg",
+      "min_sell": 550000,
+      "max_buy": 300000,
+      "median_sell": 1775000.0
+    },
+    {
+      "id": 15603,
+      "name": "Зеленый Лотос",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15603.jpg",
+      "min_sell": 450000,
+      "max_buy": 60000,
+      "median_sell": 450000.0
+    },
+    {
+      "id": 15606,
+      "name": "Красный Кармине",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15606.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 15605,
+      "name": "Розовый",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15605.jpg",
+      "min_sell": 9000000,
+      "max_buy": 200000,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 15607,
+      "name": "Гвоздика",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15607.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 9443,
+      "name": "Удар истинного тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9443.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 9444,
+      "name": "Удар темного тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9444.jpg",
+      "min_sell": 990000,
+      "max_buy": 0,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 9448,
+      "name": "Темный прилив",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9448.jpg",
+      "min_sell": 1900000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9451,
+      "name": "Светлый Быстрый дракон",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9451.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9453,
+      "name": "Светлое Раскалывание гор",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9453.jpg",
+      "min_sell": 3000000,
+      "max_buy": 0,
+      "median_sell": 4000000.0
+    },
+    {
+      "id": 9456,
+      "name": "Темный Яростный дракон",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9456.jpg",
+      "min_sell": 7500000,
+      "max_buy": 0,
+      "median_sell": 7500000.0
+    },
+    {
+      "id": 9460,
+      "name": "Темное Раскалывающееся небо",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9460.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2200000.0
+    },
+    {
+      "id": 9462,
+      "name": "Темный Удар без тени",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9462.jpg",
+      "min_sell": 250000,
+      "max_buy": 0,
+      "median_sell": 2075000.0
+    },
+    {
+      "id": 15608,
+      "name": "Коричневый",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15608.jpg",
+      "min_sell": 160000,
+      "max_buy": 115000,
+      "median_sell": 205000.0
+    },
+    {
+      "id": 9468,
+      "name": "Темный Парящий в облаках дракон",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9468.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 9470,
+      "name": "Темная Буря из шипов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9470.jpg",
+      "min_sell": 250000,
+      "max_buy": 0,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 9472,
+      "name": "Темная Самозарядная пушка",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9472.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 6450000.0
+    },
+    {
+      "id": 9466,
+      "name": "Темное Очищение небес",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9466.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 9474,
+      "name": "Темные Падающие звезды",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9474.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2400000.0
+    },
+    {
+      "id": 9476,
+      "name": "Темная Грань вымерзания",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9476.jpg",
+      "min_sell": 500000,
+      "max_buy": 0,
+      "median_sell": 3850000.0
+    },
+    {
+      "id": 15604,
+      "name": "Барвинок",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15604.jpg",
+      "min_sell": 200000,
+      "max_buy": 115000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 9478,
+      "name": "Темный Летящий дракон",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9478.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9482,
+      "name": "Темная Ревущая гора",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9482.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9483,
+      "name": "Светлый Гнев небес",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9483.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9484,
+      "name": "Темный Гнев небес",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9484.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 9486,
+      "name": "Темный Удар пустоты",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9486.jpg",
+      "min_sell": 500000,
+      "max_buy": 0,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 9488,
+      "name": "Темное Преследование души",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9488.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 9490,
+      "name": "Темный Дух оружия",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9490.jpg",
+      "min_sell": 250000,
+      "max_buy": 0,
+      "median_sell": 620000.0
+    },
+    {
+      "id": 9492,
+      "name": "Темные Десять тысяч Клинков",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9492.jpg",
+      "min_sell": 250000,
+      "max_buy": 0,
+      "median_sell": 745000.0
+    },
+    {
+      "id": 9493,
+      "name": "Светлая Аура стали",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9493.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 9495,
+      "name": "Светлый Львиный рык",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9495.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 15583,
+      "name": "Камень зеленый глаз",
+      "category": "Красители",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15583.jpg",
+      "min_sell": 160000,
+      "max_buy": 80000,
+      "median_sell": 160000.0
+    },
+    {
+      "id": 9499,
+      "name": "Светлая Сутра о Внешнем",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9499.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9504,
+      "name": "Темное Мастерство клинка",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9504.jpg",
+      "min_sell": 1999999,
+      "max_buy": 0,
+      "median_sell": 1999999.0
+    },
+    {
+      "id": 9508,
+      "name": "Темн.владение топором и булавой",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9508.jpg",
+      "min_sell": 2500000,
+      "max_buy": 0,
+      "median_sell": 2650000.0
+    },
+    {
+      "id": 9511,
+      "name": "Светлое Клеймо огня",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9511.jpg",
+      "min_sell": 1500000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 9512,
+      "name": "Темное Клеймо огня",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9512.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9513,
+      "name": "Светлая Броня огня",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9513.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9514,
+      "name": "Темная Броня огня",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9514.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9517,
+      "name": "Светлое Клеймо божеств. пламени",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9517.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 12000000.0
+    },
+    {
+      "id": 9518,
+      "name": "Темное Клеймо божеств. пламени",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9518.jpg",
+      "min_sell": 2500000,
+      "max_buy": 0,
+      "median_sell": 2500000.0
+    },
+    {
+      "id": 9521,
+      "name": "Светлые Крылья феникса",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9521.jpg",
+      "min_sell": 9900000,
+      "max_buy": 0,
+      "median_sell": 9900000.0
+    },
+    {
+      "id": 9522,
+      "name": "Темные Крылья феникса",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9522.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9524,
+      "name": "Темный обряд жертвоприношения",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9524.jpg",
+      "min_sell": 4200000,
+      "max_buy": 0,
+      "median_sell": 4200000.0
+    },
+    {
+      "id": 9525,
+      "name": "Светлое Огненное море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9525.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9526,
+      "name": "Темное Огненное море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9526.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 3000000.0
+    },
+    {
+      "id": 9527,
+      "name": "Светлый Бьющий ключ",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9527.jpg",
+      "min_sell": 50000,
+      "max_buy": 0,
+      "median_sell": 50000.0
+    },
+    {
+      "id": 9528,
+      "name": "Темный Бьющий ключ",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9528.jpg",
+      "min_sell": 75000,
+      "max_buy": 0,
+      "median_sell": 800000.0
+    },
+    {
+      "id": 9532,
+      "name": "Темный Ливень",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9532.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 9534,
+      "name": "Темная Утренняя роса",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9534.jpg",
+      "min_sell": 500000,
+      "max_buy": 0,
+      "median_sell": 3900000.0
+    },
+    {
+      "id": 9535,
+      "name": "Светлая Безмятежность",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9535.jpg",
+      "min_sell": 8000000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 9539,
+      "name": "Светлый Смертоносный град",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9539.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9541,
+      "name": "Светлая Ярость водного дракона",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9541.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9542,
+      "name": "Темная Ярость водного дракона",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9542.jpg",
+      "min_sell": 75000,
+      "max_buy": 0,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 9543,
+      "name": "Светлый Каменный дождь",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9543.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9547,
+      "name": "Светлая Ускользающая земля",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9547.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9549,
+      "name": "Светлая Передвигающаяся земля",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9549.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9553,
+      "name": "Светлое Несогласие",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9553.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9554,
+      "name": "Темное Несогласие",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9554.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 9500000.0
+    },
+    {
+      "id": 9564,
+      "name": "Темная Звериная булава",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9564.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 6000000.0
+    },
+    {
+      "id": 9563,
+      "name": "Светлая Звериная булава",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9563.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 7500000.0
+    },
+    {
+      "id": 9565,
+      "name": "Светлая Удавка",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9565.jpg",
+      "min_sell": 50000,
+      "max_buy": 50000,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 9567,
+      "name": "Светлый Похоронный колокол",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9567.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 9568,
+      "name": "Темный Похоронный колокол",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9568.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9570,
+      "name": "Темная Тысячетонная булава",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9570.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9573,
+      "name": "Светлый Пылающий ветер",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9573.jpg",
+      "min_sell": 0,
+      "max_buy": 500000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 9574,
+      "name": "Темный Пылающий ветер",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9574.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 8900000.0
+    },
+    {
+      "id": 9576,
+      "name": "Темная Раскалывающаяся земля",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9576.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 5600000.0
+    },
+    {
+      "id": 9578,
+      "name": "Темный Вызов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9578.jpg",
+      "min_sell": 18500000,
+      "max_buy": 0,
+      "median_sell": 18900000.0
+    },
+    {
+      "id": 9580,
+      "name": "Темный Армагеддон",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9580.jpg",
+      "min_sell": 500000,
+      "max_buy": 0,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 9581,
+      "name": "Светлая Сила зверя",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9581.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9584,
+      "name": "Темное Наполнение",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9584.jpg",
+      "min_sell": 125000000,
+      "max_buy": 0,
+      "median_sell": 125000000.0
+    },
+    {
+      "id": 9582,
+      "name": "Темная Сила зверя",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9582.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9586,
+      "name": "Темная Кипящая кровь",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9586.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9588,
+      "name": "Темная Божественная сила",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9588.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 9591,
+      "name": "Светлый Яростный укус",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9591.jpg",
+      "min_sell": 25000000,
+      "max_buy": 0,
+      "median_sell": 25000000.0
+    },
+    {
+      "id": 9594,
+      "name": "Темная Ярость тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9594.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9596,
+      "name": "Темная Утроба тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9596.jpg",
+      "min_sell": 3500000,
+      "max_buy": 0,
+      "median_sell": 3800000.0
+    },
+    {
+      "id": 9598,
+      "name": "Темное Бурное море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9598.jpg",
+      "min_sell": 13800000,
+      "max_buy": 0,
+      "median_sell": 13800000.0
+    },
+    {
+      "id": 9600,
+      "name": "Темные Разделяющиеся небеса",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9600.jpg",
+      "min_sell": 4900000,
+      "max_buy": 0,
+      "median_sell": 4900000.0
+    },
+    {
+      "id": 9606,
+      "name": "Темная Борьба тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9606.jpg",
+      "min_sell": 3800000,
+      "max_buy": 0,
+      "median_sell": 3800000.0
+    },
+    {
+      "id": 9614,
+      "name": "Темная Молитва о ясности",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9614.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9608,
+      "name": "Темное Присутствие тигра",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9608.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9624,
+      "name": "Темная Утренняя слава",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9624.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9626,
+      "name": "Темное Бескрайнее море",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9626.jpg",
+      "min_sell": 800000,
+      "max_buy": 0,
+      "median_sell": 3400000.0
+    },
+    {
+      "id": 9628,
+      "name": "Темная Опека пяти стихий",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9628.jpg",
+      "min_sell": 21000000,
+      "max_buy": 0,
+      "median_sell": 21000000.0
+    },
+    {
+      "id": 9629,
+      "name": "Светлая Опека пяти форм",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9629.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9632,
+      "name": "Темная Опека пяти звуков",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9632.jpg",
+      "min_sell": 5100000,
+      "max_buy": 0,
+      "median_sell": 5100000.0
+    },
+    {
+      "id": 9634,
+      "name": "Темная Опека пяти цветов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9634.jpg",
+      "min_sell": 5500000,
+      "max_buy": 0,
+      "median_sell": 7350000.0
+    },
+    {
+      "id": 9636,
+      "name": "Темная Опека железа",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9636.jpg",
+      "min_sell": 24000000,
+      "max_buy": 0,
+      "median_sell": 24000000.0
+    },
+    {
+      "id": 9642,
+      "name": "Темное Усердие",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9642.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9643,
+      "name": "Светлые Оперенные стрелы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9643.jpg",
+      "min_sell": 13500000,
+      "max_buy": 0,
+      "median_sell": 13500000.0
+    },
+    {
+      "id": 9648,
+      "name": "Темные Оперенные лезвия",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9648.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9649,
+      "name": "Светлый Смерч",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9649.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9650,
+      "name": "Темный Смерч",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9650.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 9653,
+      "name": "Светлый Ласкающий ветер",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9653.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9654,
+      "name": "Темный Ласкающий ветер",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9654.jpg",
+      "min_sell": 5900000,
+      "max_buy": 0,
+      "median_sell": 5900000.0
+    },
+    {
+      "id": 9660,
+      "name": "Темн.Мастерство владения метал.",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9660.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 9661,
+      "name": "Светлый Прицел",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9661.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 9662,
+      "name": "Темный Прицел",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9662.jpg",
+      "min_sell": 4900000,
+      "max_buy": 0,
+      "median_sell": 7450000.0
+    },
+    {
+      "id": 9670,
+      "name": "Темная Взрывающаяся стрела",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9670.jpg",
+      "min_sell": 4900000,
+      "max_buy": 0,
+      "median_sell": 4900000.0
+    },
+    {
+      "id": 9674,
+      "name": "Темная Буря из стрел",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9674.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 1100000.0
+    },
+    {
+      "id": 9675,
+      "name": "Светлый Падающий гром",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9675.jpg",
+      "min_sell": 8500000,
+      "max_buy": 0,
+      "median_sell": 8500000.0
+    },
+    {
+      "id": 9676,
+      "name": "Темный Падающий гром",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9676.jpg",
+      "min_sell": 7000000,
+      "max_buy": 0,
+      "median_sell": 7000000.0
+    },
+    {
+      "id": 9680,
+      "name": "Темные Гром и молния",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9680.jpg",
+      "min_sell": 800000,
+      "max_buy": 0,
+      "median_sell": 800000.0
+    },
+    {
+      "id": 9683,
+      "name": "Светлая Сияющая стрела",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9683.jpg",
+      "min_sell": 500000,
+      "max_buy": 0,
+      "median_sell": 500000.0
+    },
+    {
+      "id": 9689,
+      "name": "Светлая Стремительная змея",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9689.jpg",
+      "min_sell": 12000000,
+      "max_buy": 0,
+      "median_sell": 12000000.0
+    },
+    {
+      "id": 9692,
+      "name": "Темная Пробивающая стрела",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9692.jpg",
+      "min_sell": 2400000,
+      "max_buy": 0,
+      "median_sell": 2400000.0
+    },
+    {
+      "id": 9694,
+      "name": "Темная Раскалывающая стрела",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9694.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 4000000.0
+    },
+    {
+      "id": 9695,
+      "name": "Светлая Преграда крыльев",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9695.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9697,
+      "name": "Светлый Удар крыльев",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9697.jpg",
+      "min_sell": 4000000,
+      "max_buy": 0,
+      "median_sell": 4000000.0
+    },
+    {
+      "id": 9699,
+      "name": "Светлый Взмах крыльев",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9699.jpg",
+      "min_sell": 3500000,
+      "max_buy": 0,
+      "median_sell": 3500000.0
+    },
+    {
+      "id": 9700,
+      "name": "Темный Взмах крыльев",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9700.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9702,
+      "name": "Темные Ножны из перьев",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9702.jpg",
+      "min_sell": 87000000,
+      "max_buy": 0,
+      "median_sell": 87000000.0
+    },
+    {
+      "id": 9704,
+      "name": "Темная Сотня шагов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9704.jpg",
+      "min_sell": 40000000,
+      "max_buy": 0,
+      "median_sell": 41000000.0
+    },
+    {
+      "id": 9703,
+      "name": "Светлая Сотня шагов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9703.jpg",
+      "min_sell": 9900000,
+      "max_buy": 0,
+      "median_sell": 11950000.0
+    },
+    {
+      "id": 9706,
+      "name": "Темное Мастерство стрельбы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9706.jpg",
+      "min_sell": 18000000,
+      "max_buy": 0,
+      "median_sell": 18000000.0
+    },
+    {
+      "id": 9710,
+      "name": "Темный Жалящий рой",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9710.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9711,
+      "name": "Светлый Рой железных скал",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9711.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 9716,
+      "name": "Темный Ледяной рой",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9716.jpg",
+      "min_sell": 1500000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 9717,
+      "name": "Светлый Древний рой",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9717.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 9718,
+      "name": "Темный Древний рой",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9718.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 9720,
+      "name": "Темные Порождения земли",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9720.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 9722,
+      "name": "Темное Нашествие саранчи",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9722.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 9728,
+      "name": "Темная Пища",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9728.jpg",
+      "min_sell": 4000000,
+      "max_buy": 0,
+      "median_sell": 4500000.0
+    },
+    {
+      "id": 9730,
+      "name": "Темное Перенесение души",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9730.jpg",
+      "min_sell": 2000000,
+      "max_buy": 0,
+      "median_sell": 2500000.0
+    },
+    {
+      "id": 9731,
+      "name": "Бессмертный: истинный зов лисы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9731.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 9732,
+      "name": "Темный зов лисы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9732.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 12500000.0
+    },
+    {
+      "id": 9733,
+      "name": "Светлые Когти лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9733.jpg",
+      "min_sell": 15000000,
+      "max_buy": 0,
+      "median_sell": 15000000.0
+    },
+    {
+      "id": 9735,
+      "name": "Светлый Огонь духов",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9735.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9738,
+      "name": "Темный Хвост лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9738.jpg",
+      "min_sell": 2400000,
+      "max_buy": 0,
+      "median_sell": 2400000.0
+    },
+    {
+      "id": 9739,
+      "name": "Светлая Тень лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9739.jpg",
+      "min_sell": 12000000,
+      "max_buy": 0,
+      "median_sell": 12000000.0
+    },
+    {
+      "id": 9740,
+      "name": "Темная Тень лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9740.jpg",
+      "min_sell": 250000,
+      "max_buy": 0,
+      "median_sell": 2575000.0
+    },
+    {
+      "id": 9742,
+      "name": "Темная Хитрость лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9742.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 2650000.0
+    },
+    {
+      "id": 9743,
+      "name": "Светлый Дух лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9743.jpg",
+      "min_sell": 12000000,
+      "max_buy": 0,
+      "median_sell": 12000000.0
+    },
+    {
+      "id": 9744,
+      "name": "Темный Дух лисицы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9744.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 9745,
+      "name": "Светлое Изгнание",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9745.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 9747,
+      "name": "Светлое Ранение",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9747.jpg",
+      "min_sell": 55000000,
+      "max_buy": 0,
+      "median_sell": 55000000.0
+    },
+    {
+      "id": 9750,
+      "name": "Темная Слабость",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9750.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 8500000.0
+    },
+    {
+      "id": 9752,
+      "name": "Темное Разграбление",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9752.jpg",
+      "min_sell": 350000,
+      "max_buy": 0,
+      "median_sell": 4900000.0
+    },
+    {
+      "id": 9754,
+      "name": "Темная Дикость",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9754.jpg",
+      "min_sell": 1200000,
+      "max_buy": 0,
+      "median_sell": 2000000.0
+    },
+    {
+      "id": 9751,
+      "name": "Светлое Разграбление",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9751.jpg",
+      "min_sell": 850000,
+      "max_buy": 0,
+      "median_sell": 950000.0
+    },
+    {
+      "id": 9756,
+      "name": "Темное Мастерство дерева",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9756.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 11691,
+      "name": "Учебник Яростная атака",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11691.jpg",
+      "min_sell": 200000,
+      "max_buy": 0,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 11694,
+      "name": "Учебник Ледяная глыба",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11694.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 11695,
+      "name": "Учебник Ядовитый туман",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11695.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 150000.0
+    },
+    {
+      "id": 11696,
+      "name": "Учебник Призыв молнии",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11696.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 11697,
+      "name": "Учебник Песчаный занос",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11697.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 250000.0
+    },
+    {
+      "id": 11699,
+      "name": "Учебник Жалобный крик",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11699.jpg",
+      "min_sell": 700000,
+      "max_buy": 0,
+      "median_sell": 700000.0
+    },
+    {
+      "id": 11700,
+      "name": "Учебник Разрушение",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11700.jpg",
+      "min_sell": 200000,
+      "max_buy": 0,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 11701,
+      "name": "Учебник Ранение",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11701.jpg",
+      "min_sell": 200000,
+      "max_buy": 0,
+      "median_sell": 450000.0
+    },
+    {
+      "id": 11702,
+      "name": "Учебник Пронзительный крик",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11702.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 11705,
+      "name": "Учебник Вдохновление",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11705.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 100000.0
+    },
+    {
+      "id": 11706,
+      "name": "Учебник Остроумие",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11706.jpg",
+      "min_sell": 60000000,
+      "max_buy": 0,
+      "median_sell": 60000000.0
+    },
+    {
+      "id": 11703,
+      "name": "Учебник Замедление",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11703.jpg",
+      "min_sell": 850000,
+      "max_buy": 0,
+      "median_sell": 850000.0
+    },
+    {
+      "id": 11708,
+      "name": "Учебник Высасывание силы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11708.jpg",
+      "min_sell": 8000000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 11707,
+      "name": "Учебник Высасывание жизни",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11707.jpg",
+      "min_sell": 8000000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 11709,
+      "name": "Учебник Высасывание жизни",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11709.jpg",
+      "min_sell": 8000000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 11710,
+      "name": "Учебник Высасывание силы",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11710.jpg",
+      "min_sell": 7980000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 11713,
+      "name": "Учебное отклонение",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11713.jpg",
+      "min_sell": 8000000,
+      "max_buy": 0,
+      "median_sell": 8000000.0
+    },
+    {
+      "id": 11712,
+      "name": "Учебник Порвать в клочья",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11712.jpg",
+      "min_sell": 9500000,
+      "max_buy": 0,
+      "median_sell": 9500000.0
+    },
+    {
+      "id": 11714,
+      "name": "Учебник Острые когти",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11714.jpg",
+      "min_sell": 43000000,
+      "max_buy": 0,
+      "median_sell": 44000000.0
+    },
+    {
+      "id": 11715,
+      "name": "Учебник Сильный дух",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11715.jpg",
+      "min_sell": 80000000,
+      "max_buy": 0,
+      "median_sell": 80000000.0
+    },
+    {
+      "id": 11716,
+      "name": "Учебник Железный доспех",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11716.jpg",
+      "min_sell": 90000000,
+      "max_buy": 0,
+      "median_sell": 90000000.0
+    },
+    {
+      "id": 11717,
+      "name": "Учебник Удача",
+      "category": "Скилы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11717.jpg",
+      "min_sell": 55000000,
+      "max_buy": 0,
+      "median_sell": 55000000.0
+    },
+    {
+      "id": 12784,
+      "name": "Летящее облако",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12784.jpg",
+      "min_sell": 110000000,
+      "max_buy": 0,
+      "median_sell": 110000000.0
+    },
+    {
+      "id": 12785,
+      "name": "Бесподобный",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12785.jpg",
+      "min_sell": 0,
+      "max_buy": 50000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 18146,
+      "name": "Яо Гуан",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/18146.jpg",
+      "min_sell": 10000000,
+      "max_buy": 0,
+      "median_sell": 10000000.0
+    },
+    {
+      "id": 18148,
+      "name": "Хуань Цай",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/18148.jpg",
+      "min_sell": 13900000,
+      "max_buy": 0,
+      "median_sell": 13900000.0
+    },
+    {
+      "id": 19185,
+      "name": "Кровавый демон",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/19185.jpg",
+      "min_sell": 9000000,
+      "max_buy": 0,
+      "median_sell": 9000000.0
+    },
+    {
+      "id": 16758,
+      "name": "Возвращающееся сердце",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/16758.jpg",
+      "min_sell": 70000000,
+      "max_buy": 0,
+      "median_sell": 70000000.0
+    },
+    {
+      "id": 21506,
+      "name": "Юнь Син",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/21506.jpg",
+      "min_sell": 200000000,
+      "max_buy": 0,
+      "median_sell": 200000000.0
+    },
+    {
+      "id": 24366,
+      "name": "Пчела-воин",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/24366.jpg",
+      "min_sell": 0,
+      "max_buy": 22000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 24764,
+      "name": "Священный светлячок",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/24764.jpg",
+      "min_sell": 0,
+      "max_buy": 30000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 26071,
+      "name": "Дух ночи",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26071.jpg",
+      "min_sell": 200000000,
+      "max_buy": 50000000,
+      "median_sell": 200000000.0
+    },
+    {
+      "id": 26098,
+      "name": "Скованная тень",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26098.jpg",
+      "min_sell": 200000000,
+      "max_buy": 0,
+      "median_sell": 200000000.0
+    },
+    {
+      "id": 26980,
+      "name": "Грифон",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26980.jpg",
+      "min_sell": 700000000,
+      "max_buy": 0,
+      "median_sell": 700000000.0
+    },
+    {
+      "id": 28647,
+      "name": "Злой дух тьмы",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/28647.jpg",
+      "min_sell": 0,
+      "max_buy": 50000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 26072,
+      "name": "Птица Рух",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26072.jpg",
+      "min_sell": 0,
+      "max_buy": 36000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29018,
+      "name": "Рождественские крылья",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29018.jpg",
+      "min_sell": 0,
+      "max_buy": 10000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29019,
+      "name": "Белоснежный журавль",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29019.jpg",
+      "min_sell": 0,
+      "max_buy": 50000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29027,
+      "name": "Созвездие единорога",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29027.jpg",
+      "min_sell": 0,
+      "max_buy": 40000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29043,
+      "name": "Ледяные клинки",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29043.jpg",
+      "min_sell": 70000000,
+      "max_buy": 0,
+      "median_sell": 70000000.0
+    },
+    {
+      "id": 29045,
+      "name": "Повелитель ветров",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29045.jpg",
+      "min_sell": 0,
+      "max_buy": 24000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29049,
+      "name": "Красная неясыть",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29049.jpg",
+      "min_sell": 100000000,
+      "max_buy": 40000000,
+      "median_sell": 100000000.0
+    },
+    {
+      "id": 29058,
+      "name": "Огненный поцелуй",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29058.jpg",
+      "min_sell": 0,
+      "max_buy": 39000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29044,
+      "name": "Звездный павлин",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29044.jpg",
+      "min_sell": 0,
+      "max_buy": 45000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29059,
+      "name": "Снежный коршун",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29059.jpg",
+      "min_sell": 0,
+      "max_buy": 30000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29060,
+      "name": "Меч отшельника",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29060.jpg",
+      "min_sell": 44000000,
+      "max_buy": 0,
+      "median_sell": 44500000.0
+    },
+    {
+      "id": 29070,
+      "name": "Хрупкая снежинка",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29070.jpg",
+      "min_sell": 23000000,
+      "max_buy": 0,
+      "median_sell": 24000000.0
+    },
+    {
+      "id": 29071,
+      "name": "Ледяная черепаха",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29071.jpg",
+      "min_sell": 49999999,
+      "max_buy": 30000000,
+      "median_sell": 49999999.0
+    },
+    {
+      "id": 29072,
+      "name": "Алое облако",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29072.jpg",
+      "min_sell": 0,
+      "max_buy": 39000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29256,
+      "name": "Красивый нефрит",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29256.jpg",
+      "min_sell": 24000000,
+      "max_buy": 15000000,
+      "median_sell": 30000000.0
+    },
+    {
+      "id": 29257,
+      "name": "Огненный оплот",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29257.jpg",
+      "min_sell": 49999999,
+      "max_buy": 21000000,
+      "median_sell": 49999999.5
+    },
+    {
+      "id": 29258,
+      "name": "Млечный путь",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29258.jpg",
+      "min_sell": 150000000,
+      "max_buy": 0,
+      "median_sell": 150000000.0
+    },
+    {
+      "id": 29263,
+      "name": "Гранатовый дракон",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29263.jpg",
+      "min_sell": 54999999,
+      "max_buy": 22000000,
+      "median_sell": 54999999.0
+    },
+    {
+      "id": 29262,
+      "name": "Соблазн полководца",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29262.jpg",
+      "min_sell": 29000000,
+      "max_buy": 0,
+      "median_sell": 29000000.0
+    },
+    {
+      "id": 29264,
+      "name": "Незабудка",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29264.jpg",
+      "min_sell": 33000000,
+      "max_buy": 0,
+      "median_sell": 33000000.0
+    },
+    {
+      "id": 29281,
+      "name": "Яшмовая ветка",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29281.jpg",
+      "min_sell": 27000000,
+      "max_buy": 0,
+      "median_sell": 34999999.0
+    },
+    {
+      "id": 29283,
+      "name": "Цвет нефрита",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29283.jpg",
+      "min_sell": 60000000,
+      "max_buy": 28000000,
+      "median_sell": 60000000.0
+    },
+    {
+      "id": 29282,
+      "name": "Облачный слон",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29282.jpg",
+      "min_sell": 69999999,
+      "max_buy": 40000000,
+      "median_sell": 69999999.0
+    },
+    {
+      "id": 29337,
+      "name": "Журавлиная песня",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29337.jpg",
+      "min_sell": 20000000,
+      "max_buy": 15000000,
+      "median_sell": 21000000.0
+    },
+    {
+      "id": 29338,
+      "name": "Отбрасывающий тень",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29338.jpg",
+      "min_sell": 70000000,
+      "max_buy": 40000000,
+      "median_sell": 70000000.0
+    },
+    {
+      "id": 29339,
+      "name": "Кристальный лед",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29339.jpg",
+      "min_sell": 60000000,
+      "max_buy": 15000000,
+      "median_sell": 60000000.0
+    },
+    {
+      "id": 33137,
+      "name": "Меч метели",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/33137.jpg",
+      "min_sell": 90000000,
+      "max_buy": 0,
+      "median_sell": 90000000.0
+    },
+    {
+      "id": 32074,
+      "name": "Алое пламя",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/32074.jpg",
+      "min_sell": 60000000,
+      "max_buy": 0,
+      "median_sell": 60000000.0
+    },
+    {
+      "id": 35271,
+      "name": "Полет духа",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/35271.jpg",
+      "min_sell": 200000000,
+      "max_buy": 0,
+      "median_sell": 200000000.0
+    },
+    {
+      "id": 39673,
+      "name": "Пылающий феникс",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/39673.jpg",
+      "min_sell": 0,
+      "max_buy": 42000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 39881,
+      "name": "Потомок дракона",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/39881.jpg",
+      "min_sell": 150000000,
+      "max_buy": 0,
+      "median_sell": 150000000.0
+    },
+    {
+      "id": 39887,
+      "name": "Любопытный филин",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/39887.jpg",
+      "min_sell": 49999999,
+      "max_buy": 25000000,
+      "median_sell": 49999999.0
+    },
+    {
+      "id": 48705,
+      "name": "Крылатый барашек",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/48705.jpg",
+      "min_sell": 0,
+      "max_buy": 42000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 50606,
+      "name": "Крылья журавля",
+      "category": "Полеты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/50606.jpg",
+      "min_sell": 0,
+      "max_buy": 44000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 10998,
+      "name": "Яйцо Летучей свиньи",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/10998.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 10997,
+      "name": "Яйцо Малого медведя-трубача",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/10997.jpg",
+      "min_sell": 300000,
+      "max_buy": 300000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 10995,
+      "name": "Яйцо Кота цветов сливы",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/10995.jpg",
+      "min_sell": 300000,
+      "max_buy": 200000,
+      "median_sell": 400000.0
+    },
+    {
+      "id": 10999,
+      "name": "Яйцо Пса-медиума",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/10999.jpg",
+      "min_sell": 300000,
+      "max_buy": 200000,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 11000,
+      "name": "Яйцо Морского заклинателя",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11000.jpg",
+      "min_sell": 200000,
+      "max_buy": 0,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 11682,
+      "name": "Яйцо лягушонка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11682.jpg",
+      "min_sell": 200000,
+      "max_buy": 20000,
+      "median_sell": 200000.0
+    },
+    {
+      "id": 11001,
+      "name": "Яйцо Большого медведя-трубача",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11001.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 12324,
+      "name": "Яйцо медвежонка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12324.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 12351,
+      "name": "Яйцо Небесного ястреба",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12351.jpg",
+      "min_sell": 1000000,
+      "max_buy": 0,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 12353,
+      "name": "Яйцо Цветочного котенка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12353.jpg",
+      "min_sell": 1500000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 12354,
+      "name": "Яйцо Кролика",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12354.jpg",
+      "min_sell": 300000,
+      "max_buy": 200000,
+      "median_sell": 400000.0
+    },
+    {
+      "id": 12355,
+      "name": "Яйцо Небесного поросенка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12355.jpg",
+      "min_sell": 1500000,
+      "max_buy": 0,
+      "median_sell": 1750000.0
+    },
+    {
+      "id": 12356,
+      "name": "Яйцо Щенка-медиума",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12356.jpg",
+      "min_sell": 1500000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 12357,
+      "name": "Яйцо Лягушонка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/12357.jpg",
+      "min_sell": 1000000,
+      "max_buy": 500000,
+      "median_sell": 1000000.0
+    },
+    {
+      "id": 15739,
+      "name": "Адский волк",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/15739.jpg",
+      "min_sell": 11000000,
+      "max_buy": 0,
+      "median_sell": 14000000.0
+    },
+    {
+      "id": 18305,
+      "name": "Питон, глотающий небо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/18305.jpg",
+      "min_sell": 95000000,
+      "max_buy": 44000000,
+      "median_sell": 95000000.0
+    },
+    {
+      "id": 21694,
+      "name": "Панда-начальник",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/21694.jpg",
+      "min_sell": 35000000,
+      "max_buy": 20000000,
+      "median_sell": 39999999.0
+    },
+    {
+      "id": 23581,
+      "name": "Рождественский олень",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/23581.jpg",
+      "min_sell": 5500000,
+      "max_buy": 0,
+      "median_sell": 5500000.0
+    },
+    {
+      "id": 26107,
+      "name": "Красный дух лисы - яйцо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26107.jpg",
+      "min_sell": 0,
+      "max_buy": 60000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 26111,
+      "name": "Легенда ночи - яйцо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26111.jpg",
+      "min_sell": 0,
+      "max_buy": 50000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 26126,
+      "name": "Ужас глубин",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26126.jpg",
+      "min_sell": 32999999,
+      "max_buy": 15000000,
+      "median_sell": 36499999.0
+    },
+    {
+      "id": 26700,
+      "name": "Яйцо краба-малыша",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26700.jpg",
+      "min_sell": 20000,
+      "max_buy": 0,
+      "median_sell": 50000.0
+    },
+    {
+      "id": 26701,
+      "name": "Яйцо морского демона-малыша",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26701.jpg",
+      "min_sell": 300000,
+      "max_buy": 0,
+      "median_sell": 300000.0
+    },
+    {
+      "id": 27855,
+      "name": "Величественный тигр",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/27855.jpg",
+      "min_sell": 29000000,
+      "max_buy": 15000000,
+      "median_sell": 38000000.0
+    },
+    {
+      "id": 28001,
+      "name": "Яйцо пламенного единорога",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/28001.jpg",
+      "min_sell": 0,
+      "max_buy": 20000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 28002,
+      "name": "Яйцо солнечного единорога",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/28002.jpg",
+      "min_sell": 30000000,
+      "max_buy": 12000000,
+      "median_sell": 30000000.0
+    },
+    {
+      "id": 29011,
+      "name": "Петух",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29011.jpg",
+      "min_sell": 48999999,
+      "max_buy": 22000000,
+      "median_sell": 48999999.0
+    },
+    {
+      "id": 29024,
+      "name": "Яшмовый заяц",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29024.jpg",
+      "min_sell": 150000000,
+      "max_buy": 44000000,
+      "median_sell": 150000000.0
+    },
+    {
+      "id": 28003,
+      "name": "Яйцо единорога зари",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/28003.jpg",
+      "min_sell": 35000000,
+      "max_buy": 15000000,
+      "median_sell": 35000000.0
+    },
+    {
+      "id": 29040,
+      "name": "Загадочный дракон",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29040.jpg",
+      "min_sell": 38000000,
+      "max_buy": 23000000,
+      "median_sell": 47500000.0
+    },
+    {
+      "id": 29046,
+      "name": "Священный дракон льда",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29046.jpg",
+      "min_sell": 499000000,
+      "max_buy": 0,
+      "median_sell": 499000000.0
+    },
+    {
+      "id": 29061,
+      "name": "Солидная белка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29061.jpg",
+      "min_sell": 35000000,
+      "max_buy": 23000000,
+      "median_sell": 35000000.0
+    },
+    {
+      "id": 29066,
+      "name": "Снежный цилинь",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29066.jpg",
+      "min_sell": 0,
+      "max_buy": 28000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 29068,
+      "name": "Вожак стаи",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29068.jpg",
+      "min_sell": 59000000,
+      "max_buy": 30000000,
+      "median_sell": 59500000.0
+    },
+    {
+      "id": 29265,
+      "name": "Золотая свинья",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29265.jpg",
+      "min_sell": 20000000,
+      "max_buy": 7000000,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 29267,
+      "name": "Гламурная хрюшка",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29267.jpg",
+      "min_sell": 32900000,
+      "max_buy": 25000000,
+      "median_sell": 32900000.0
+    },
+    {
+      "id": 29341,
+      "name": "Золотой конь",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29341.jpg",
+      "min_sell": 18000000,
+      "max_buy": 10000000,
+      "median_sell": 18000000.0
+    },
+    {
+      "id": 30737,
+      "name": "Заяц-беляк - яйцо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/30737.jpg",
+      "min_sell": 3700000,
+      "max_buy": 3500000,
+      "median_sell": 5000000.0
+    },
+    {
+      "id": 30996,
+      "name": "Яйцо питомца - Снеговик",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/30996.jpg",
+      "min_sell": 1250000,
+      "max_buy": 0,
+      "median_sell": 1500000.0
+    },
+    {
+      "id": 35605,
+      "name": "Железный носорог",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/35605.jpg",
+      "min_sell": 32999999,
+      "max_buy": 15000000,
+      "median_sell": 32999999.0
+    },
+    {
+      "id": 36396,
+      "name": "Маленький дракончик",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/36396.jpg",
+      "min_sell": 5000000,
+      "max_buy": 0,
+      "median_sell": 7990000.0
+    },
+    {
+      "id": 26702,
+      "name": "Яйцо малька",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/26702.jpg",
+      "min_sell": 100000,
+      "max_buy": 0,
+      "median_sell": 400000.0
+    },
+    {
+      "id": 36970,
+      "name": "Venom",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/36970.jpg",
+      "min_sell": 0,
+      "max_buy": 30000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 47925,
+      "name": "Серебристый дракон - яйцо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/47925.jpg",
+      "min_sell": 28000000,
+      "max_buy": 20000000,
+      "median_sell": 32500000.0
+    },
+    {
+      "id": 8796,
+      "name": "Чистая вода",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/8796.jpg",
+      "min_sell": 0,
+      "max_buy": 20,
+      "median_sell": 0.0
+    },
+    {
+      "id": 9757,
+      "name": "Зеленая трава",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9757.jpg",
+      "min_sell": 28980,
+      "max_buy": 12010,
+      "median_sell": 29000.0
+    },
+    {
+      "id": 9758,
+      "name": "Дикий фрукт",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9758.jpg",
+      "min_sell": 3890,
+      "max_buy": 2020,
+      "median_sell": 3900.0
+    },
+    {
+      "id": 9759,
+      "name": "Трутовик",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9759.jpg",
+      "min_sell": 3890,
+      "max_buy": 3020,
+      "median_sell": 3900.0
+    },
+    {
+      "id": 34751,
+      "name": "Питон рока - яйцо",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/34751.jpg",
+      "min_sell": 80000000,
+      "max_buy": 44000000,
+      "median_sell": 90000000.0
+    },
+    {
+      "id": 9760,
+      "name": "Свежее мясо",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9760.jpg",
+      "min_sell": 9490,
+      "max_buy": 7520,
+      "median_sell": 9500.0
+    },
+    {
+      "id": 9761,
+      "name": "Постное мясо",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/9761.jpg",
+      "min_sell": 17990,
+      "max_buy": 10020,
+      "median_sell": 18000.0
+    },
+    {
+      "id": 11550,
+      "name": "Птичье гнездо",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11550.jpg",
+      "min_sell": 27990,
+      "max_buy": 22020,
+      "median_sell": 28000.0
+    },
+    {
+      "id": 36855,
+      "name": "SpiderMan",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/36855.jpg",
+      "min_sell": 0,
+      "max_buy": 30000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 11551,
+      "name": "Дикий женьшень",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11551.jpg",
+      "min_sell": 120000,
+      "max_buy": 100020,
+      "median_sell": 120000.0
+    },
+    {
+      "id": 11552,
+      "name": "Олений рог",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11552.jpg",
+      "min_sell": 12480,
+      "max_buy": 10020,
+      "median_sell": 13000.0
+    },
+    {
+      "id": 11580,
+      "name": "Арахисовое масло",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11580.jpg",
+      "min_sell": 0,
+      "max_buy": 180,
+      "median_sell": 0.0
+    },
+    {
+      "id": 11581,
+      "name": "Кунжутное масло",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/11581.jpg",
+      "min_sell": 0,
+      "max_buy": 400,
+      "median_sell": 0.0
+    },
+    {
+      "id": 18251,
+      "name": "Совершенный бисквит",
+      "category": "Еда и Аптека",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/18251.jpg",
+      "min_sell": 105000,
+      "max_buy": 95000,
+      "median_sell": 107500.0
+    },
+    {
+      "id": 29340,
+      "name": "Ночной кошмар",
+      "category": "Питомцы",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/29340.jpg",
+      "min_sell": 0,
+      "max_buy": 20000000,
+      "median_sell": 0.0
+    },
+    {
+      "id": 17580,
+      "name": "Расцвели персиковые деревья",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17580.jpg",
+      "min_sell": 750000,
+      "max_buy": 0,
+      "median_sell": 750000.0
+    },
+    {
+      "id": 17579,
+      "name": "Один против целой армии",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17579.jpg",
+      "min_sell": 750000,
+      "max_buy": 0,
+      "median_sell": 750000.0
+    },
+    {
+      "id": 17582,
+      "name": "Огромный дух",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17582.jpg",
+      "min_sell": 750000,
+      "max_buy": 0,
+      "median_sell": 750000.0
+    },
+    {
+      "id": 17583,
+      "name": "Период разрушений",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17583.jpg",
+      "min_sell": 750000,
+      "max_buy": 500000,
+      "median_sell": 750000.0
+    },
+    {
+      "id": 17586,
+      "name": "Поднимаем 1000 цзюнь",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17586.jpg",
+      "min_sell": 2200000,
+      "max_buy": 0,
+      "median_sell": 2200000.0
+    },
+    {
+      "id": 17587,
+      "name": "Туманный дождь цветов сливы",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17587.jpg",
+      "min_sell": 2200000,
+      "max_buy": 0,
+      "median_sell": 2200000.0
+    },
+    {
+      "id": 17584,
+      "name": "Невозможное",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17584.jpg",
+      "min_sell": 750000,
+      "max_buy": 0,
+      "median_sell": 750000.0
+    },
+    {
+      "id": 17593,
+      "name": "Наслаждайся жизнью, пока можно",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17593.jpg",
+      "min_sell": 6500000,
+      "max_buy": 0,
+      "median_sell": 6500000.0
+    },
+    {
+      "id": 17597,
+      "name": "Аромат красавицы",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17597.jpg",
+      "min_sell": 6500000,
+      "max_buy": 0,
+      "median_sell": 6500000.0
+    },
+    {
+      "id": 17594,
+      "name": "Закат",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17594.jpg",
+      "min_sell": 6500000,
+      "max_buy": 0,
+      "median_sell": 6500000.0
+    },
+    {
+      "id": 17598,
+      "name": "Прощальная песнь",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17598.jpg",
+      "min_sell": 6500000,
+      "max_buy": 0,
+      "median_sell": 6500000.0
+    },
+    {
+      "id": 17602,
+      "name": "Буддистские чувства",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17602.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 17601,
+      "name": "Призыв духов",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17601.jpg",
+      "min_sell": 20000000,
+      "max_buy": 0,
+      "median_sell": 20000000.0
+    },
+    {
+      "id": 17682,
+      "name": "Пустое зеркало",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/17682.jpg",
+      "min_sell": 39900000,
+      "max_buy": 0,
+      "median_sell": 44450000.0
+    },
+    {
+      "id": 23526,
+      "name": "Рождественское поздравление",
+      "category": "Книги и Трактаты",
+      "icon": "https://dbase.pwclassic.net/images/icons/m/23526.jpg",
+      "min_sell": 350000,
+      "max_buy": 200000,
+      "median_sell": 350000.0
     }
   ]
 }
