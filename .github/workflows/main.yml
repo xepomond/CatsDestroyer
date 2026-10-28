@@ -34,10 +34,10 @@ jobs:
 
       - name: Run Arbitrage Scanner
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+                    TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           WEBAPP_URL: ${{ secrets.WEBAPP_URL }}
-          MIN_PROFIT_ALERT: 30000
+          MIN_PROFIT_ALERT: 100000
+          MIN_MARGIN_ALERT: 99999999
           MAX_WORKERS: 4
         run: |
           python scanner
