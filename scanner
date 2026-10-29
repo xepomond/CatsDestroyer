@@ -311,7 +311,7 @@ def main():
             continue
 
         # Check thresholds
-        if deal["total_profit"] >= MIN_PROFIT_ALERT or deal["margin_pct"] >= MIN_MARGIN_ALERT:
+        if deal["total_profit"] >= MIN_PROFIT_ALERT:
             msg = (
                 f"🚨 <b>АРБИТРАЖ PW CLASSIC!</b>\n"
                 f"📦 <b>{deal['name']}</b> ({deal['category']})\n\n"
